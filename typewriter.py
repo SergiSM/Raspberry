@@ -9,4 +9,4 @@ def typewriter(words):
         sys.stdout.write(char)
         sys.stdout.flush()
 
-typewriter('Hello world')
+typewriter('Hello world ...')
