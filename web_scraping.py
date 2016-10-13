@@ -30,9 +30,10 @@ if statusCode == 200:
         
         nextNode = table.findNext('td')
         trama = nextNode.contents[0]
-        for i in range(14):
+        for i in range(15):
             nextNode = nextNode.findNext('td')
-            aux = nextNode.findNext('td').contents[0]
+            aux = nextNode.contents[0]
+            #aux = nextNode.findNext('td').contents[0]
             #print('*'+aux+'*')
             #if (aux == ):
             #    aux = "0"
@@ -48,9 +49,9 @@ if statusCode == 200:
         
         nextNode = table.findNext('td')
         trama = nextNode.contents[0]
-        for i in range(14):
+        for i in range(15):
             nextNode = nextNode.findNext('td')
-            aux = nextNode.findNext('td').contents[0]
+            aux = nextNode.contents[0]
             #print('*'+aux+'*')
             #if (aux == ):
             #    aux = "0"
