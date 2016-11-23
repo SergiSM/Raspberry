@@ -1,0 +1,10 @@
+Per crear una nova pàgina
+
+multifinestra.py
+    - afegir import PX
+    - incrementar TOTAL_PAGINES
+    - afegir frame  -> for frms in (P1.Pagina1, ...
+
+Crear PX.py segons P1.py, modificant el següent :
+    - class PaginaX
+    - def cos_pagina(self) -> afegir controls/widgets
