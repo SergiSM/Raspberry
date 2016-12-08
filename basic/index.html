@@ -1,0 +1,46 @@
+<html>
+<head>
+<script language="javascript" src="jquery.js"></script>
+<script src="phonegap.js"></script>
+<SCRIPT>
+
+function obtenir_dades()
+{
+	$.ajax({
+		  //url: 'http://192.168.1.61/awp/index.html', 
+		  url: 'http://192.168.0.161:5000/hora', 		  
+		  type: 'get',
+		  cache : false,
+		  success: function(data) { 
+			   Accio_a_Realitzar(data)
+		   },	
+		  error : function() {	
+			document.getElementById("estat_boto").innerHTML = "<IMG SRC='error.png'>";
+		  }	
+	  });
+}
+
+function Accio_a_Realitzar(data)
+{
+	if (data.indexOf("1") != -1)		//si el text capturat conté el valor 1
+	{
+		document.getElementById("estat_boto").innerHTML = "<IMG SRC='on.png'>";		
+		navigator.notification.vibrate(300);
+	}
+	else 
+		document.getElementById("estat_boto").innerHTML = "<IMG SRC='off.png'>";
+}
+
+</SCRIPT>
+</head>
+
+<body>
+
+<SCRIPT>setInterval(function(){obtenir_dades()},1000);</SCRIPT>
+
+<div id="estat_boto"></div>
+
+<img src="on.png">
+
+</body>
+</html>
