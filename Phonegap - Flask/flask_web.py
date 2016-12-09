@@ -10,8 +10,8 @@ def index():
 
 @app.route('/hora')
 def seg():
-    return render_template('segons.html',segons=time.strftime("%S"))
-    #return (time.strftime("%S")) //el jquery no pesca res
+    #return render_template('segons.html',segons=time.strftime("%S"))
+    return (time.strftime("%S")) 
     #return (time.strftime("%H:%M:%S"))
 
 if __name__ == '__main__':

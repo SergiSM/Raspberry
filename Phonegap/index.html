@@ -8,7 +8,8 @@ function obtenir_dades()
 {
 	$.ajax({
 		  //url: 'http://192.168.1.61/awp/index.html', 
-		  url: 'http://192.168.1.38:5000/hora', 		  
+		  //url: 'http://raspberrypi:5000/hora', 
+		  url: 'http://192.168.1.41:5000/hora',		  
 		  type: 'get',
 		  cache : false,
 		  success: function(data) { 
@@ -24,7 +25,7 @@ function Accio_a_Realitzar(data)
 {
 	//if (data.indexOf("1") != -1)		//si el text capturat conté el valor 1
 	document.getElementById("data").innerHTML = data+"*";
-	if (parseInt(data) >= 5)
+	if (parseInt(data) >= 30)
 	{
 		document.getElementById("estat_boto").innerHTML = "<IMG SRC='on.png'>";		
 		navigator.notification.vibrate(300);
