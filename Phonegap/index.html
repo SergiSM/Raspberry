@@ -27,11 +27,23 @@ function Accio_a_Realitzar(data)
 	document.getElementById("data").innerHTML = data+"*";
 	if (parseInt(data) >= 30)
 	{
-		document.getElementById("estat_boto").innerHTML = "<IMG SRC='on.png'>";		
-		navigator.notification.vibrate(300);
+		document.getElementById("estat_boto").innerHTML = "<IMG SRC='on.png'>";	
+		navigator.vibrate(300);	
+		//navigator.notification.vibrate(300);
 	}
 	else 
 		document.getElementById("estat_boto").innerHTML = "<IMG SRC='off.png'>";
+}
+
+function Peticio(text) {
+	$.ajax({
+		  url: 'http://192.168.1.41:5000/activate?text='+text,		  
+		  type: 'get',
+		  cache : false,
+		  success: function(data) { 
+		   },	
+		  error : function() {}	
+	  });
 }
 
 </SCRIPT>
@@ -43,6 +55,8 @@ function Accio_a_Realitzar(data)
 
 <div id="data"></div>
 <div id="estat_boto"></div>
+
+<img src="turn_on.png" onclick="Peticio('on')" id=activador>
 
 </body>
 </html>
