@@ -28,6 +28,7 @@
 	<!-- to enable individual permissions use the following examples -->
 	<feature name="http://api.phonegap.com/1.0/notification"/>
 	<feature name="http://api.phonegap.com/1.0/media"/>
+	<gap:plugin name="org.apache.cordova.vibration"  />
 	
 	<access origin="*"/>
 
