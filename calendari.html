@@ -1,5 +1,12 @@
 <HTML>
 <HEAD>
+<STYLE>
+table {
+    border-collapse: collapse;
+    font-family: verdana; font-size: 16pt;
+}
+</STYLE>
+
 <script>
 var d = new Date();    
 var mes = d.getMonth() + 1; //he de sumar 1 perque comença per 0
@@ -40,7 +47,7 @@ function marcar_dies() {
     var t = new Date(2017,2,16);    //16/03/2017 els mesos comencen per 0, llavors 2 -> 3
     var c = 0;
     var etapa = 0;  //0 = 7, 1 = 4, 2 = 7, 3 = 3    
-    for (i = 0; i < 365*1; i++)
+    for (i = 0; i < 365*5; i++)
     {                                    
         if ((etapa == 0)  && ((c>0) && ((c % 7) == 0))) 
         {
@@ -122,11 +129,12 @@ function calendari(mes, any) {
     else
         dia_setm = 6;               //6 = Diumenge
     
-    var s = "<table border=1>";
-    s += "<tr><td colspan=7 align=center>"+mes+"/"+any+"</td></tr>";
-    
+    var s = "<table border=1 width='90%' height='90%'>";
+    s += "<tr><td colspan=7 align=center bgcolor=silver><span style='font-size:26pt;'><b>"+mes+"/"+any+"</b></span></td></tr>";
+    s += "<tr align=center bgcolor=#0080FF><td>LUNES</td><td>MARTES</td><td>MIÉRCOLES</td><td>JUEVES</td><td>VIERNES</td><td>SÁBADO</td><td>DOMINGO</td></tr>";
+
     for (i=0; i < dia_setm; i++)
-        s += "<td>-</td>";
+        s += "<td>&nbsp;</td>";
     
     salt = dia_setm;    //per determinar salt 
     color = "white";
@@ -144,11 +152,19 @@ function calendari(mes, any) {
 
         if ((salt % 7) == 0)
            s += "<tr>";
-        s += "<td bgcolor="+color+">"+i+"</td>";        
+        s += "<td bgcolor="+color+" align=center width='12%'>"+i+"</td>";        
         salt++;
     }
 
-    s += "<tr><td colspan=2 align=center><a href='#' onclick='inc_mes(-1);'>*</a></td><td colspan=3>&nbsp;</td><td colspan=2 align=center><a href='#' onclick='inc_mes(1);'>*</a></td></tr>";
+    for (i=salt; i < (salt+7); i++)     
+    {
+         if ((i % 7) != 0)          
+            s += "<td>&nbsp;</td>";         
+        else
+            break; //per completar el calendari, surto quan arribo al final
+    }
+
+    s += "<tr><td align=center><a href='#' onclick='inc_mes(-1);'><img src=prev.png></a></td><td colspan=5>&nbsp;</td><td align=center><a href='#' onclick='inc_mes(1);'><img src=next.png></a></td></tr>";
     s += "</table>";
 
     //alert(s);
@@ -159,10 +175,10 @@ function calendari(mes, any) {
 </HEAD>
 
 <BODY>
-
+<CENTER>
 <div id="t_calendari"></div>        
 
 <script>calendari(mes, any);   //he de cridar funció després de la capa on s'ha d'ubicar el calendari</script>
-
+</CENTER>
 </BODY>
 </HTML>
