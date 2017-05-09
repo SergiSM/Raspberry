@@ -1,0 +1,96 @@
+#include <Bridge.h>
+#include <YunServer.h>
+#include <YunClient.h>
+
+YunServer server;
+
+int E1 = 6;
+int M1 = 7;
+int E2 = 5;                        
+int M2 = 4;   
+
+void setup() 
+{
+  Bridge.begin();
+  server.listenOnLocalhost();
+  server.begin();
+  
+  pinMode(2, OUTPUT);
+
+  pinMode(M1, OUTPUT);  
+  pinMode(M2, OUTPUT);  
+}
+
+void loop() 
+{
+  YunClient client = server.accept();
+
+  if (client) 
+  {
+    process(client);    
+    client.stop();
+  }
+
+  delay(50); // Poll every 50ms
+  
+  
+}
+
+void process(YunClient client) 
+{
+  String comanda = client.readStringUntil('/');  
+  comanda.replace("\r\n", "");
+  
+  String velocitat = comanda.substring(0,3); 
+  char cadena[velocitat.length()+1];
+  velocitat.toCharArray(cadena, velocitat.length()+1);
+  int value = atoi(cadena);
+  
+  comanda = comanda.substring(3, 20);  
+
+  //client.println(value);
+
+  if (comanda.indexOf("endavant") >= 0)
+  {    
+    //endavant(value);
+    digitalWrite(M1,HIGH);  
+    digitalWrite(M2,HIGH);      
+    analogWrite(E1, value);   //PWM Speed Control
+    analogWrite(E2, value);   //PWM Speed Control
+  }
+ 
+  if (comanda.indexOf("endarrera") >= 0)
+      endarrera(value);
+      
+  if (comanda.indexOf("aturar") >= 0)      
+      aturar();
+  
+  client.println("*"+comanda+"*");
+}
+
+void aturar()
+{
+    digitalWrite(M1,LOW);  
+    digitalWrite(M2,LOW);      
+    analogWrite(E1, 0);   //PWM Speed Control
+    analogWrite(E2, 0);   //PWM Speed Control
+}
+
+void endavant(int value)
+{
+    aturar();
+    digitalWrite(M1,HIGH);  
+    digitalWrite(M2,HIGH);      
+    analogWrite(E1, value);   //PWM Speed Control
+    analogWrite(E2, value);   //PWM Speed Control
+}
+
+void endarrera(int value)
+{
+    aturar();
+    digitalWrite(M1,LOW);  
+    digitalWrite(M2,LOW);      
+    analogWrite(E1, value);   //PWM Speed Control
+    analogWrite(E2, value);   //PWM Speed Control     
+}
+
