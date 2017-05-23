@@ -1,0 +1,3 @@
+import urllib.request
+
+urllib.request.urlretrieve("http://es.farnell.com/productimages/standard/en_GB/2001784-40.jpg", "c:\\Temp\\00000001.jpg")
