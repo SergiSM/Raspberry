@@ -13,3 +13,27 @@
     - tons
     - url melod.
     
+ 2 - Entrades (veure amb monitor sèrie)
+    - botó
+    - pir
+    - ldr
+    - ultrasons
+    - ir
+    - potenciòmetre
+    
+ 3 - Combinacions
+    - botó + led
+    - serial + rgb
+    - ir + rgb
+    - potenciòmetre + servo  
+    - ultrasons + servo (maleter cotxe)
+    - pir + led (llum lavabo)
+    
+ 4 - Exercicis
+    - si poca llum -> led on i viceversa  | ldr + led (cotxe túnel, llums jardí)
+    - alarma aparcament : ultrasons + buzzer
+    - alarma : pir + buzzer
+    - potenciòmetre + motor
+    - ir + servo
+    
+    
