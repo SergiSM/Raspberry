@@ -31,6 +31,7 @@
     
  4 - Exercicis
     - si poca llum -> led on i viceversa  | ldr + led (cotxe túnel, llums jardí)
+    - potenciòmetre + led (modificar temps pampallugues led = llums nadal)
     - alarma aparcament : ultrasons + buzzer
     - alarma : pir + buzzer
     - potenciòmetre + motor
