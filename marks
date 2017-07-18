@@ -35,5 +35,6 @@
     - alarma : pir + buzzer
     - potenciòmetre + motor
     - ir + servo
-    
+    - alarma aparcament : ultrasons + buzzer + led rgb
+    - ir + led rgb + servo + buzzer (1 : red, 2 : green, 3 : blue, 4 : servo 0º, 5 : servo 180º, 6 : buzzer on, 7 : buzzer off)
     
