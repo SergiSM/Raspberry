@@ -23,6 +23,8 @@
     
  3 - Combinacions
     - botó + led
+        - botó apretat -> led on
+        - interruptor on -> off -> on ...
     - pir + led (llum lavabo)
     - serial + rgb
     - ir + rgb
