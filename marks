@@ -23,11 +23,11 @@
     
  3 - Combinacions
     - botó + led
+    - pir + led (llum lavabo)
     - serial + rgb
     - ir + rgb
     - potenciòmetre + servo  
-    - ultrasons + servo (maleter cotxe)
-    - pir + led (llum lavabo)
+    - ultrasons + servo (maleter cotxe)    
     
  4 - Exercicis
     - si poca llum -> led on i viceversa  | ldr + led (cotxe túnel, llums jardí)
