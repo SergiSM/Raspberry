@@ -2,9 +2,9 @@
 1 - Sortides
   - blink led
   - led rgb
-  - motor
     - bloc
     - funcio 1 linia
+  - motor    
   - servo
     - 0 a 180 amb pausa
     - for 0 a 180
