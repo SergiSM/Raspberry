@@ -18,6 +18,7 @@
     - pir
     - ldr
     - potenciòmetre
+    - temperatura i humitat
     - ultrasons
     - ir
     
@@ -35,6 +36,7 @@
     - si poca llum -> led on i viceversa  | ldr + led (cotxe túnel, llums jardí)
     - potenciòmetre + led (modificar temps pampallugues led = llums nadal)
     - alarma aparcament : ultrasons + buzzer
+    - augment de temperatura -> alarma
     - alarma : pir + buzzer
     - potenciòmetre + motor
     - ir + servo
