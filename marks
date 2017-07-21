@@ -1,7 +1,7 @@
 Intro
+- Repartiment material
 - Models arduino
 - Exemples de projectes
-- Repartiment material
 - Campus
 - Explicació pràctiques i material
 - IDES, offline i arduino create
@@ -28,6 +28,7 @@ Intro
     - temperatura i humitat
     - ultrasons
     - ir
+    - "pc"
     
  3 - Combinacions
     - botó + led
