@@ -1,0 +1,29 @@
+private void timer_lectures_Tick(object sender, EventArgs e)
+{
+    try
+    {
+        richTextBox1.BackColor = Color.White;
+
+        serverStream = clientSocket.GetStream();
+        byte[] outStream = System.Text.Encoding.ASCII.GetBytes(TRAMA);
+        serverStream.Write(outStream, 0, outStream.Length);
+        serverStream.Flush();
+
+        Llegir_Socket_Async();
+
+        TRAMA = "XXXXXX"; 
+    }
+    catch
+    {
+        richTextBox1.BackColor = Color.Red;
+    }
+}
+
+private async void Llegir_Socket_Async()
+{
+    byte[] inStream = new byte[10025];
+    await serverStream.ReadAsync(inStream, 0, (int)clientSocket.ReceiveBufferSize);
+    string returndata = System.Text.Encoding.ASCII.GetString(inStream);
+    richTextBox1.Text = DateTime.Now.ToString() + Environment.NewLine;
+    richTextBox1.Text += returndata + Environment.NewLine;            
+}
