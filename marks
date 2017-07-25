@@ -7,11 +7,11 @@ Intro
 - IDES, offline i arduino create
 
 1 - Sortides
-  - blink led
+  - blink led (pota llarga i petita, tipus resistència)
   - led rgb
     - bloc
     - funcio 1 linia
-  - motor    
+  - motor (on/off)   
   - servo
     - 0 a 180 amb pausa
     - for 0 a 180
