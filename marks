@@ -12,7 +12,7 @@ Intro
     - bloc
     - funcio 1 linia
   - motor (on/off)   
-  - servo
+  - servo (posar pala)
     - 0 a 180 amb pausa
     - for 0 a 180
   - buzzer
