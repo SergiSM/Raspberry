@@ -30,10 +30,10 @@ Intro
     - ir
     - "pc"
     
- 3 - Combinacions
+ 3 - Combinacions (línies per compartir 5v i GND)
     - botó + led
         - botó apretat -> led on
-        - interruptor on -> off -> on ...
+        - interruptor on -> off -> on ... (variable estat)
     - pir + led (llum lavabo)
     - serial + rgb
     - ir + rgb
@@ -41,8 +41,9 @@ Intro
     - ultrasons + servo (maleter cotxe)    
     
  4 - Exercicis
-    - si poca llum -> led on i viceversa  | ldr + led (cotxe túnel, llums jardí)
-    - potenciòmetre + led (modificar temps pampallugues led = llums nadal)
+    - si poca llum -> led on i viceversa  | ldr + led (cotxe túnel, llums jardí)    
+    - potenciòmetre + led (modificar temps pampallugues led = llums nadal) delay(TEMPS) 
+        map(value, fromLow, fromHigh, toLow, toHigh) map(poten, 0, 1024, 50, 1000) poten=0 -> delay(50) , poten=1024 -> delay(1000)
     - alarma aparcament : ultrasons + buzzer
     - augment de temperatura -> alarma
     - alarma : pir + buzzer
