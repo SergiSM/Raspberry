@@ -1,0 +1,19 @@
+import MySQLdb
+
+DB_HOST = '' 
+DB_USER = '' 
+DB_PASS = '' 
+DB_NAME = '' 
+
+config = [DB_HOST, DB_USER, DB_PASS, DB_NAME] 
+conn = MySQLdb.connect(*config)
+cursor = conn.cursor()  
+
+query = "insert into xxx values (....)"
+cursor.execute(query)
+conn.commit()
+
+conn.close() 
+
+#pip install mysqlclient
+      
