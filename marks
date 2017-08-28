@@ -9,6 +9,8 @@ Intro
 - IDES, offline i arduino create
 - Reference guide (setup, loop, digitalwrite, ...)
 
+*** adjuntar .ino a les pràctiques en pdf ***
+
 1 - Sortides
   - blink led (pota llarga i petita, tipus resistència) (breu descripció digitalWrite ...)
   - led rgb
