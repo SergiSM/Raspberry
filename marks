@@ -7,6 +7,7 @@ Intro
 - Campus
 - Explicació guies i pràctiques
 - IDES, offline i arduino create
+- Reference guide (setup, loop, digitalwrite, ...)
 
 1 - Sortides
   - blink led (pota llarga i petita, tipus resistència) (breu descripció digitalWrite ...)
