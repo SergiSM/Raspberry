@@ -1,3 +1,21 @@
+wifi
+  - actuador : web -> on/off led
+  - sensor : tempertura -> web
+  - twitter (temperatura cada x minuts), google calendar (llegir calendar i fer acció)
+  
+bluetooth
+  - aplicació pc : llegir i enviar dades per bluetooth (sharpdevelop, lazarus, python, ...) / Encendre led i llegir temperatures
+  - app phonegap
+  
+ rfid
+  - arduino : llegir codi i : on/off led, moure servo, beep lectura ok, ...
+  - pc : comunicació port sèrie i bbdd o csv amb id/hora, foto usuari tipus control accès
+  
+lcd display
+   - display temperatura
+
+
+
 Intro
 - Intro (dispositiu programable, ..)
 - Models arduino
