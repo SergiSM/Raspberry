@@ -55,12 +55,12 @@ function f_last_hours()
     var hores = d.getHours();
     var minuts = d.getMinutes();
 
+	hores_ = hores;
     if (hores < 10)
         hores_ = '0'+hores;
 
     document.write("Darrera imatge <br>");
-    document.write("<a href='#'><img src="+year+"-"+month+"-"+day+"_"+hores_
-    +minuts+".jpg width=320 height=240></a><br>");
+    document.write("<a href='#'><img src="+year+"-"+month+"-"+day+"_"+hores_+minuts+".jpg width=320 height=240></a><br>");
 
     document.write("<br>Darreres hores <br>");
     for (i=hores; i >= 0; i--)
