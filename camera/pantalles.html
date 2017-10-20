@@ -1,0 +1,84 @@
+<HTML>
+<style>
+    BODY { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 12pt; font-weight: bold;}
+</style>
+<BODY>
+
+<script>
+function f_last_min(month, day, hora, minut)
+{
+	var s = "";
+    if (month < 10) month = '0'+month;
+    if (day < 10) day = '0'+day;
+    if (hora < 10) hora = '0'+hora;	
+	var minut_ = 0;
+
+    for (i=minut; i<minut+10; i++) {    
+        if (i < 10) 
+            minut_ = '0'+i;
+        else
+            minut_ = i;  
+    
+		s += "<img src=2017-"+month+"-"+day+"_"+hora+minut_+".jpg width=320 height=240>";		
+    }
+
+    document.getElementById("minuts").innerHTML = "<br>Minut a minut <br>" +s;
+    var element_to_scroll_to = document.getElementById('minuts');
+    element_to_scroll_to.scrollIntoView();
+}
+
+function f_last_10min(month, day, hora)
+{
+    var s = "";
+    if (month < 10) month = '0'+month;
+    if (day < 10) day = '0'+day;
+    if (hora < 10) hora = '0'+hora;
+    for (i=0; i<=50; i=i+10) {    
+		if (i ==0) 
+			minut = '00';
+		else
+			minut = i;
+		s += "<a href='#' onclick='f_last_min("+month+","+day+","+hora+","+i+")'><img src=2017-"+month+"-"+day+"_"+hora+minut+".jpg width=320 height=240></a>";
+    }
+
+    document.getElementById("10_minuts").innerHTML = "<br>Segments de 10 minuts <br>" + s;
+    var element_to_scroll_to = document.getElementById('10_minuts');
+    element_to_scroll_to.scrollIntoView();
+}
+
+function f_last_hours()
+{
+    var d = new Date();
+    var month = d.getMonth() + 1; //months from 1-12
+    var day = d.getDate();
+    var year = d.getFullYear();
+    var hores = d.getHours();
+    var minuts = d.getMinutes();
+
+    if (hores < 10)
+        hores_ = '0'+hores;
+
+    document.write("Darrera imatge <br>");
+    document.write("<a href='#'><img src="+year+"-"+month+"-"+day+"_"+hores_
+    +minuts+".jpg width=320 height=240></a><br>");
+
+    document.write("<br>Darreres hores <br>");
+    for (i=hores; i >= 0; i--)
+    {	
+        hora = i;
+        if (month < 10) month = '0'+month;
+        if (day < 10) day = '0'+day;
+        if (hora < 10) hora = '0'+hora;
+        document.write("<a href='#' onclick='f_last_10min("+month+","+day+","+hora+")'><img src="+year+"-"+month+"-"+day+"_"+hora+"00.jpg width=320 height=240></a>");
+    }
+}
+
+f_last_hours();
+</script>
+
+<div id="10_minuts"></div>
+<div id="minuts"></div>
+
+</BODY>
+</HTML>
+
