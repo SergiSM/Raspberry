@@ -54,13 +54,22 @@ function f_last_hours()
     var year = d.getFullYear();
     var hores = d.getHours();
     var minuts = d.getMinutes();
-
+	
 	hores_ = hores;
     if (hores < 10)
         hores_ = '0'+hores;
+	minuts_ = minuts;
+	if (minuts < 10)
+		minuts_ = '0'+minuts;
+	day_ = day;
+	if (day < 10)
+		day_ = '0'+day;
+	month_ = month;
+	if (month <10)
+		month_ = '0'+month;
 
     document.write("Darrera imatge <br>");
-    document.write("<a href='#'><img src="+year+"-"+month+"-"+day+"_"+hores_+minuts+".jpg width=320 height=240></a><br>");
+    document.write("<a href='#'><img src="+year+"-"+month_+"-"+day_+"_"+hores_+minuts_+".jpg width=320 height=240></a><br>");
 
     document.write("<br>Darreres hores <br>");
     for (i=hores; i >= 0; i--)
