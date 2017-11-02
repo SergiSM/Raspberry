@@ -5,7 +5,15 @@
     Canvi ip xarxa alumnes i prova des d'una altra classe
     
 2 - Prac 1 i 2 amb sensors i actuadors
-    (fotocèl·lula, pulsador, selector, POTENCIÒMETRE) (semàfor, relé, electrovàlvula, ventiladors)
+    (fotocèl·lula, inductiu, pulsador, selector, POTENCIÒMETRE) (semàfor, relé, electrovàlvula, ventiladors)
+    Estructura per fotocèl·lula mirall
+    
+    http://es.farnell.com/schneider-electric-telemecanique/xub2aksnm12t/sensor-fotoel-ctrico-15m-digital/dp/2765961
+    http://es.farnell.com/multicomp/mcpip-t12l-011/sensor-m12-pnp-blindado-nc/dp/2218037
+    http://es.farnell.com/werma/69812075/indicador-se-al-verde-rojo-24v/dp/2464915
+    sensor analògic
+    http://es.farnell.com/citec-te-connectivity/23esa223mmf50nf/potenci-metro-lin-22k/dp/350084
+    http://es.farnell.com/on-semiconductor/1n5347bg/diode-zener-10v-5w/dp/9558055
 
 3 - Bus AS-i
 
@@ -16,6 +24,9 @@
 
 6 - Scada WinCC
     Guia
+    Excel
+    Mail
+    BBdd
 
 7 - Scada WinCC
 
@@ -26,5 +37,5 @@
 10 - Pràctica final
 
 11 - Examen Teòric
-        - PDF com. ind, AS-i i arquitectura
+        - PDF com. ind, AS-i, Modbus i arquitectura
         
