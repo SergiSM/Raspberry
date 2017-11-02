@@ -23,7 +23,7 @@
 5 - App Android
 
 6 - Scada WinCC
-    Guia
+    Guia replicant pràctiques hmi
     Excel
     Mail
     BBdd
@@ -31,6 +31,9 @@
 7 - Scada WinCC
 
 8 - Modbus
+    xarxa modbus
+    protocol modbus
+    python enviar i rebre trames
 
 9 - Pràctica final
 
