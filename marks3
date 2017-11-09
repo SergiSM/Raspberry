@@ -1,0 +1,17 @@
+Holding registers (R/W)
+  - Led RGB
+  - Servo
+  
+Input registers (R)
+  - Potenciòmetre
+  - LDR
+  
+Coils (R/W)
+  - Servo (0,180)
+  - Ventilador (ON/OFF)
+  
+Discrete input (R)
+  - Led status (ON/OFF)
+  
+  
+
