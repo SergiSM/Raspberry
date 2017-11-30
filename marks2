@@ -15,6 +15,7 @@
     sensor analògic
     http://es.farnell.com/citec-te-connectivity/23esa223mmf50nf/potenci-metro-lin-22k/dp/350084
     http://es.farnell.com/on-semiconductor/1n5347bg/diode-zener-10v-5w/dp/9558055
+    http://es.farnell.com/multicomp/mcpip-t12l-001/sensor-m12-pnp-blindado-no/dp/2218036
 
 3 - Bus AS-i
 
@@ -42,4 +43,6 @@
 
 11 - Examen Teòric
         - PDF com. ind, AS-i, Modbus i arquitectura
+        
+EXTRA : SharpDevelop + libnodave
         
