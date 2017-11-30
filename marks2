@@ -45,4 +45,10 @@
         - PDF com. ind, AS-i, Modbus i arquitectura
         
 EXTRA : SharpDevelop + libnodave
-        
+TIA Portal S71200 sending data from PLC to PC by TUSEND-command
+        https://www.youtube.com/watch?v=8s4RWjAWkDI
+How do you parameterize the "TMAIL_C" instruction to send e-mails with the SIMATIC S7-1200?
+    https://support.industry.siemens.com/cs/document/67262019/how-do-you-parameterize-the-tmail_c-instruction-to-send-e-mails-with-the-simatic-s7-1200-?dti=0&lc=en-WW
+    https://support.industry.siemens.com/cs/document/46817803/sending-emails-to-smtp-servers-with-an-s7-cpu?dti=0&lc=en-WW
+    
+    
