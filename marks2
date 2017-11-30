@@ -18,8 +18,8 @@
     http://es.farnell.com/multicomp/mcpip-t12l-001/sensor-m12-pnp-blindado-no/dp/2218036
 
 3 - Bus AS-i
-
-4 - (Bus as-i multiples esclaus)
+    (Bus as-i multiples esclaus)
+4 - Compartir dades entre 2 PLC per profinet
     Web server
     
 5 - App Android
