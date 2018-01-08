@@ -11,6 +11,7 @@ NodeMCU
   - Enviar mail
   - Enviar telegram
   - Actuar segons google calendar
+  - Actuar segons una API, com weatherAPI, ...
 
 - Connectar a la plataforma IFTTT
   - Enviar tweet si 
