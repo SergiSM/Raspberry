@@ -1,0 +1,17 @@
+
+NodeMCU
+
+- Introducció a la placa de desenvolupament NodeMCU
+- NodeMCU com a servidor web
+- NodeMCU com a client web
+  - Enviar tweet cada X minuts amb temperatura
+  - Pujar dades a un excel a Google Drive
+  - Pujar dades a una plataforma Cloud gratuita. Crear un dashboard web per supervisar l'estat de diversos sensors i controlar remotament diferents actuadors
+
+- Connectar a la plataforma IFTTT
+  - Enviar tweet si 
+  
+
+
+
+Mqtt
