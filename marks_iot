@@ -6,12 +6,25 @@ NodeMCU
 - NodeMCU com a client web
   - Enviar tweet cada X minuts amb temperatura
   - Pujar dades a un excel a Google Drive
+  - Pujar dades a una base de dades
   - Pujar dades a una plataforma Cloud gratuita. Crear un dashboard web per supervisar l'estat de diversos sensors i controlar remotament diferents actuadors
+  - Enviar mail
+  - Enviar telegram
+  - Actuar segons google calendar
 
 - Connectar a la plataforma IFTTT
   - Enviar tweet si 
   
+- Mqtt
+
+- App mòbil
+  - Phonegap
+  - Blynk
+  
+- Altres
+    - gps
+    - sms
+    - gsm/3g
+    
 
 
-
-Mqtt
