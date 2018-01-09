@@ -6,6 +6,7 @@ wifi
 bluetooth
   - aplicació pc : llegir i enviar dades per bluetooth (sharpdevelop, lazarus, python, ...) / Encendre led i llegir temperatures
   - app phonegap
+  http://www.electronicwings.com/nodemcu/hc-05-bluetooth-module-interfacing-with-nodemcu
   
  rfid
   - arduino : llegir codi i : on/off led, moure servo, beep lectura ok, ...
