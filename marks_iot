@@ -1,3 +1,6 @@
+Intro Internet of things
+Plaques, nodemcu, raspberry, mkr1000, 
+
 
 NodeMCU
 
@@ -10,8 +13,16 @@ NodeMCU
   - Pujar dades a una plataforma Cloud gratuita. Crear un dashboard web per supervisar l'estat de diversos sensors i controlar remotament diferents actuadors
   - Enviar mail
   - Enviar telegram
+      https://github.com/gusman126/arduino_telegram_bot/blob/master/telegram_ok.ino
+      https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
+      http://www.instructables.com/id/Send-Notifications-to-Your-Phone-From-an-ESP8266/
   - Actuar segons google calendar
   - Actuar segons una API, com weatherAPI, ...
+  - Display
+    https://www.losant.com/blog/how-to-connect-lcd-esp8266-nodemcu
+    http://www.instructables.com/id/ESP8266-12e-With-GPS-OLED-Display/
+  
+  https://github.com/witnessmenow/arduino-ifttt-maker
 
 - Connectar a la plataforma IFTTT
   - Enviar tweet si 
