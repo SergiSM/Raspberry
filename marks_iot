@@ -1,6 +1,8 @@
 Intro Internet of things
 Plaques, nodemcu, raspberry, mkr1000, 
 
+Apendre com enviar dades de sensors al núvol i com controlar actuadors des d'una web o una app.
+Connectar sensors i actuadors amb serveis com Gmail, Twitter, Telegram, Google Drive.
 
 NodeMCU
 
@@ -11,6 +13,8 @@ NodeMCU
   - Pujar dades a un excel a Google Drive
   - Pujar dades a una base de dades
   - Pujar dades a una plataforma Cloud gratuita. Crear un dashboard web per supervisar l'estat de diversos sensors i controlar remotament diferents actuadors
+      https://www.carriots.com/
+      thinkspeak, arduino cloud, adafruit.io
   - Enviar mail
   - Enviar telegram
       https://github.com/gusman126/arduino_telegram_bot/blob/master/telegram_ok.ino
