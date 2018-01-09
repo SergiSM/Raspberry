@@ -1,3 +1,6 @@
+Per wifi : nodemcu
+Per bluetooth : fer servir arduino kit anterior
+
 wifi
   - actuador : web -> on/off led
   - sensor : tempertura -> web
