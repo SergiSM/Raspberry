@@ -1,5 +1,34 @@
 ### estructures i protocols de comunicació
-- comunicació sèrie(232) i modbus(485)
+- comunicació sèrie(232) i modbus(485) rtu i tcp
    -programes python/c#, editar, datalogger
-   - exemple real i proves amb Arduino
+   - exemple real i proves amb Arduino (caixa amb arduino i sensors i actuadors)
 - intro altres protocols, profinet, profibus, as-i,
+
+### sistemes de control i supervisió de processos
+- HMI i SCADA (wincc i c#)
+- sense as-i ?
+- explicar altres solucions, panel pc, terminals mòbils, ...
+- opc server, activeX, ...
+- web i base de dades, mail
+
+### xarxes industrials
+- Piràmide comunicacions, Busos industrials (Ethernet industrial, profibus, ...)
+- Bus As-i (configurar múltiples esclaus)
+- Intercanvi de dades entre PLC's -> PUT/GET
+- Buffer diagnòstic
+- Simular avaríes (ip errònea, cable eth desconnectat, plc model incorrecte, etc)
+- Gateway, router
+   - https://www.expertdaq.es/conversor/conversor-usb-rs485rs422/ex9530/?gclid=EAIaIQobChMI84GTs63h2AIVpp3tCh3htgGsEAYYASABEgKW4fD_BwE
+   - moxa rs232 a eth
+   - Conversors Moxa https://www.moxa.com/product/NPort_DE-211.htm , etc
+   - http://www.matrix.es/networking-industrial
+   - http://www.matrix.es/networking-industrial/switches-industriales/extensores-ethernet
+   - http://mtxm2m.com/product/router/mtx-router-titan-3g
+   - Raspberry, lectura modbus i enviar cloud via http
+   
+   
+### supervisió remota   
+- Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
+- http://mtxm2m.com/product/router/mtx-router-titan-3g (www.matrix.es)
+- ftp://ftp.matrix.es/mtxm2m/Routers%20M2M/MTX-Router-Titan/Aplication_notes_ESpa%C3%B1ol/
+- VPN
