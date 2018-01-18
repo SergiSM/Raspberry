@@ -1,3 +1,5 @@
-- estructures i protocols de comunicació
+### estructures i protocols de comunicació
 - comunicació sèrie(232) i modbus(485)
    -programes python/c#, editar, datalogger
+   - exemple real i proves amb Arduino
+- intro altres protocols, profinet, profibus, as-i,
