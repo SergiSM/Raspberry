@@ -1,6 +1,7 @@
 ### estructures i protocols de comunicació
 - comunicació sèrie(232) i modbus(485) rtu i tcp
-   -programes python/c#, editar, datalogger
+   - trames, int to hex, crc
+   - programes python/c#, editar, datalogger
    - exemple real i proves amb Arduino (caixa amb arduino i sensors i actuadors)
 - intro altres protocols, profinet, profibus, as-i,
 
@@ -12,6 +13,7 @@
 - web i base de dades, mail
 
 ### xarxes industrials
+- Examen a meitat de curs
 - Piràmide comunicacions, Busos industrials (Ethernet industrial, profibus, ...)
 - Bus As-i (configurar múltiples esclaus)
 - Intercanvi de dades entre PLC's -> PUT/GET
@@ -25,10 +27,18 @@
    - http://www.matrix.es/networking-industrial/switches-industriales/extensores-ethernet
    - http://mtxm2m.com/product/router/mtx-router-titan-3g
    - Raspberry, lectura modbus i enviar cloud via http
+- Wifi industrial
    
    
-### supervisió remota   
+### sistemes d'accés remot a processos industrials
 - Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
 - http://mtxm2m.com/product/router/mtx-router-titan-3g (www.matrix.es)
 - ftp://ftp.matrix.es/mtxm2m/Routers%20M2M/MTX-Router-Titan/Aplication_notes_ESpa%C3%B1ol/
 - VPN
+- Telegram, mail
+- Cloud
+- SSL, TLS, https
+- NAT -> IP webserver : PORT
+- Wifi industrial
+- App phonegap
+
