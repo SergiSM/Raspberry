@@ -7,7 +7,10 @@ DBSession = sessionmaker()
 DBSession.bind = engine
 session = DBSession()
 # Make a query to find all Persons in the database
-session.query(Person).all()
+cursor = session.query(Person).all()
+for c in cursor:
+    print(c.name)
+print("---------")
 
 # Return the first Person from all Persons in the database
 person = session.query(Person).first()
