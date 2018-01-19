@@ -4,6 +4,8 @@
    - programes python/c#, editar, datalogger
    - exemple real i proves amb Arduino (caixa amb arduino i sensors i actuadors)
 - intro altres protocols, profinet, profibus, as-i,
+- https://en.wikipedia.org/wiki/List_of_automation_protocols
+- protocol antena wifi, protocol mando
 
 ### sistemes de control i supervisió de processos
 - HMI i SCADA (wincc i c#)
