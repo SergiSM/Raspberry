@@ -22,6 +22,8 @@
 - Piràmide comunicacions, Busos industrials (Ethernet industrial, profibus, ...)
 - Bus As-i (configurar múltiples esclaus)
 - Intercanvi de dades entre PLC's -> PUT/GET
+   - https://www.youtube.com/watch?v=X9D6haMjEyg&index=13&list=PL6w-_JQPzf2HFRKxCyfPmszm5EmNRc83e
+   - https://www.youtube.com/watch?v=KVxcMKJnwIQ&index=14&list=PL6w-_JQPzf2HFRKxCyfPmszm5EmNRc83e
 - Buffer diagnòstic
 - Simular avaríes (ip errònea, cable eth desconnectat, plc model incorrecte, etc)
 - Gateway, router
