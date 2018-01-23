@@ -80,6 +80,8 @@
 - Examen a meitat de curs
 - Piràmide comunicacions, Busos industrials (Ethernet industrial, profibus, ...)
 - Bus As-i (configurar múltiples esclaus)
+- Tipologies de xarxa
+- Profibus ?
 - Intercanvi de dades entre PLC's -> PUT/GET
    - https://www.youtube.com/watch?v=X9D6haMjEyg&index=13&list=PL6w-_JQPzf2HFRKxCyfPmszm5EmNRc83e
    - https://www.youtube.com/watch?v=KVxcMKJnwIQ&index=14&list=PL6w-_JQPzf2HFRKxCyfPmszm5EmNRc83e
@@ -103,6 +105,12 @@
 - https://www.youtube.com/watch?v=OvRD2UvrHjE (RealTimeAutomation channel)
 - https://www.youtube.com/watch?v=6K2Y_sp5f4o (Industrial Networks Fundamentals)  
 - RFID
+- Pràctiques :
+   - Muntatge des de zero, plc ,font, switch, ...
+   - As-i
+      - Configurar
+      - Canvi adreces i xarxa amb múltiples esclaus
+   - Intercanvi de dades entre PLCs
    
 ### sistemes d'accés remot a processos industrials
 - Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
