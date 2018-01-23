@@ -22,6 +22,24 @@
 - https://www.moxa.com/doc/manual/MGate/MGate_MB3000_Series_Users_Manual_v1.pdf
    MGate MB3000 line of Modbus gateways. All models feature easy integration of Modbus TCP to Modbus RTU/ASCII and feature RS-232/422/485 ports for Modbus serial
    communication
+- ******************************************************************************************
+- https://www.youtube.com/watch?v=k993tAFRLSE (Understanding Modbus Serial and TCP/IP) *****
+- ******************************************************************************************
+- http://plc-hmi-scadas.com/TIA_Portal_Modbus_RTU.php
+- http://plc-hmi-scadas.com/083.php / Simatic 1200 Servidor ModbusTCP
+- RS232/Sèrie 1 a 1 (amb moxa eth puc apuntar a diverser ips), RS485/Modbus 1 Màster i múltiples slaves
+- Pràctiques :
+   - Llegir i escriue per port sèrie
+      - Exemple "industrial" : bàscula, electrònica/sensor, lector codis de barres
+      - https://es.rs-online.com/web/p/products/8104169/?grossPrice=Y&cm_mmc=ES-PLA-_-google-_-PLA_ES_ES_Automatizaci%C3%B3n_Y_Control_De_Procesos-_-Aut%C3%B3matas_Programables_And_Interfaz_Hombre-M%C3%A1quina_Y_Adquisici%C3%B3n_De_Datos&mkwid=s_dc%7cpcrid%7c88860983241%7cpkw%7c%7cpmt%7c%7cprd%7c8104169&gclid=EAIaIQobChMIj6yxoaDu2AIVcCjTCh3f7wheEAQYAiABEgIDl_D_BwE&gclsrc=aw.ds
+   - Llegir i escriure modbus
+      - Amb llibreria
+      - Sense llibreria
+   - Llegir i escriure protocol propi
+      - Arduino
+   - Llegir sensor i2C
+   - Projecte final
+      
    
 
 ### sistemes de control i supervisió de processos
@@ -55,11 +73,9 @@
 - https://library.automationdirect.com/plc-communications-coming-of-age/
 - https://library.automationdirect.com/industrial-ethernet-or-fieldbus-network/
 - https://www.youtube.com/watch?v=Al-deBn0ywU
-- ******************************************************************************************
-- https://www.youtube.com/watch?v=k993tAFRLSE (Understanding Modbus Serial and TCP/IP) *****
-- ******************************************************************************************
 - https://www.youtube.com/watch?v=OvRD2UvrHjE (RealTimeAutomation channel)
-- https://www.youtube.com/watch?v=6K2Y_sp5f4o (Industrial Networks Fundamentals)   
+- https://www.youtube.com/watch?v=6K2Y_sp5f4o (Industrial Networks Fundamentals)  
+- RFID
    
 ### sistemes d'accés remot a processos industrials
 - Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
