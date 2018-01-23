@@ -50,7 +50,31 @@
 - sense as-i ?
 - explicar altres solucions, panel pc, terminals mòbils, ...
 - opc server, activeX, ...
+- Snap7, libnodave, ...
 - web i base de dades, mail
+- PLC Omron ?
+- Vincular PLC A Programes de gestió del manteniment, ERP, ...
+- Pràctiques :
+   - HMI :
+      - supervisió i control bàsic
+      - textos, imatges, animacions, widgets
+      - alarmes
+      - gestió usuaris
+      - variables internes      
+      - receptes ?
+   - Web
+   - App ?
+   - SCADA 
+      - WinCC
+         - supervisió i control
+         - notificacions : mail, telegram, gdrive
+         - base de dades
+         - scripts segons events (límit superat, temporitzador, ...)
+      - C#
+         - ídem wincc
+   - Modbus Visual
+      - Modbus free
+      - Sharpdevelop/Visual 
 
 ### xarxes industrials
 - Examen a meitat de curs
