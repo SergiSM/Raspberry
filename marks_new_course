@@ -29,6 +29,7 @@
 - http://plc-hmi-scadas.com/083.php / Simatic 1200 Servidor ModbusTCP
 - RS232/Sèrie 1 a 1 (amb moxa eth puc apuntar a diverser ips), RS485/Modbus 1 Màster i múltiples slaves
 - Pràctiques :
+   - Conversió int to hex, bytes, bits
    - Llegir i escriue per port sèrie
       - Exemple "industrial" : bàscula, electrònica/sensor, lector codis de barres
       - https://es.rs-online.com/web/p/products/8104169/?grossPrice=Y&cm_mmc=ES-PLA-_-google-_-PLA_ES_ES_Automatizaci%C3%B3n_Y_Control_De_Procesos-_-Aut%C3%B3matas_Programables_And_Interfaz_Hombre-M%C3%A1quina_Y_Adquisici%C3%B3n_De_Datos&mkwid=s_dc%7cpcrid%7c88860983241%7cpkw%7c%7cpmt%7c%7cprd%7c8104169&gclid=EAIaIQobChMIj6yxoaDu2AIVcCjTCh3f7wheEAQYAiABEgIDl_D_BwE&gclsrc=aw.ds
@@ -36,7 +37,9 @@
       - Amb llibreria
       - Sense llibreria
    - Llegir i escriure protocol propi
-      - Arduino
+      - Arduino <-> PC
+      - PC envia trames i Arduino actua i contesta
+      - SOH o STX/Random hash/bloc dades/checksum/ETX  //checksum = xor ^, suma bytes de random hash i bloc de dades
    - Llegir sensor i2C
    - Projecte final
       
