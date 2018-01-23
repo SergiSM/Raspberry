@@ -1,14 +1,27 @@
 ### estructures i protocols de comunicació
+- https://es.wikipedia.org/wiki/Modelo_OSI
+- Protocol comunicació bàscula(sèrie), vatímetre(modbus), i2c, ... -> emulació sobre arduino
+- Tunejar protocol mòdul wifi, mandos
+- https://sensing.honeywell.com/honeywell-white-paper-communication-protocol-002415-1-en2.pdf
+- Slideshare : 
+   - https://es.slideshare.net/Ali3041982/communicationprotocols
+   - https://es.slideshare.net/GopiA2/communication-protocol-presentation?next_slideshow=1 (dibuixos funcionament protocol pàg. 7 )
+- Youtube : Communication protocols
 - comunicació sèrie(232) i modbus(485) rtu i tcp
    - trames, int to hex, crc
-   - programes python/c#, editar, datalogger
+   - programes python/c#, editar, datalogger (modbus/python amb llibreria i sense)
    - exemple real i proves amb Arduino (caixa amb arduino i sensors i actuadors)
 - intro altres protocols, profinet, profibus, as-i,
 - https://en.wikipedia.org/wiki/List_of_automation_protocols
 - protocol antena wifi, protocol mando
 - profibus
    https://www.youtube.com/watch?v=j7wWcJUFPf8
-- https://www.youtube.com/watch?v=WsgDtrHPDFg
+- https://www.youtube.com/watch?v=WsgDtrHPDFg 
+- **** https://www.bayt.com/en/specialties/q/112228/what-are-the-famous-communication-protocols-used-in-industrial-field/
+    - RS-485 bus work in conditions of strong interference (for example,. Industry) and provides a large transmission ranges ...
+- https://www.moxa.com/doc/manual/MGate/MGate_MB3000_Series_Users_Manual_v1.pdf
+   MGate MB3000 line of Modbus gateways. All models feature easy integration of Modbus TCP to Modbus RTU/ASCII and feature RS-232/422/485 ports for Modbus serial
+   communication
 
 ### sistemes de control i supervisió de processos
 - HMI i SCADA (wincc i c#)
