@@ -22,6 +22,7 @@
 - https://www.moxa.com/doc/manual/MGate/MGate_MB3000_Series_Users_Manual_v1.pdf
    MGate MB3000 line of Modbus gateways. All models feature easy integration of Modbus TCP to Modbus RTU/ASCII and feature RS-232/422/485 ports for Modbus serial
    communication
+   
 
 ### sistemes de control i supervisió de processos
 - HMI i SCADA (wincc i c#)
@@ -58,7 +59,7 @@
 - https://www.youtube.com/watch?v=k993tAFRLSE (Understanding Modbus Serial and TCP/IP) *****
 - ******************************************************************************************
 - https://www.youtube.com/watch?v=OvRD2UvrHjE (RealTimeAutomation channel)
-   
+- https://www.youtube.com/watch?v=6K2Y_sp5f4o (Industrial Networks Fundamentals)   
    
 ### sistemes d'accés remot a processos industrials
 - Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
