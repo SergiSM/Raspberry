@@ -112,6 +112,9 @@
 - https://www.youtube.com/watch?v=Al-deBn0ywU
 - https://www.youtube.com/watch?v=OvRD2UvrHjE (RealTimeAutomation channel)
 - https://www.youtube.com/watch?v=6K2Y_sp5f4o (Industrial Networks Fundamentals)  
+- https://es.slideshare.net/johnpir/profibus-dp-55706968?qid=472468fb-55c6-415f-a158-ec352ff1a225&v=&b=&from_search=1
+- http://www.infoplc.net/blogs-automatizacion/item/103031-razones-aprender-codesys
+- https://www.youtube.com/watch?v=_JIqMyWdLvg
 - RFID
 - Pràctiques :
    - Muntatge des de zero, plc ,font, switch, ...
@@ -119,6 +122,7 @@
       - Configurar
       - Canvi adreces i xarxa amb múltiples esclaus
    - Intercanvi de dades entre PLCs
+      - http://www.infoplc.net/descargas/103-siemens/automatas/s7-1200/2259-comunicacion-profinet-s7-1200 (bona explicació ethernet industrial)
    
 ### sistemes d'accés remot a processos industrials
 - Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
