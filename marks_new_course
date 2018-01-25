@@ -34,6 +34,7 @@
       - Exemple "industrial" : bàscula, electrònica/sensor, lector codis de barres
       - https://es.rs-online.com/web/p/products/8104169/?grossPrice=Y&cm_mmc=ES-PLA-_-google-_-PLA_ES_ES_Automatizaci%C3%B3n_Y_Control_De_Procesos-_-Aut%C3%B3matas_Programables_And_Interfaz_Hombre-M%C3%A1quina_Y_Adquisici%C3%B3n_De_Datos&mkwid=s_dc%7cpcrid%7c88860983241%7cpkw%7c%7cpmt%7c%7cprd%7c8104169&gclid=EAIaIQobChMIj6yxoaDu2AIVcCjTCh3f7wheEAQYAiABEgIDl_D_BwE&gclsrc=aw.ds
       - P1 : llegir port sèrie -> lector codi de barres (python)
+             https://www.amazon.es/Esc%C3%A1ner-Autom%C3%A1tico-Velocidad-Ajustable-Compatible/dp/B01NBHYTCB/ref=sr_1_3?ie=UTF8&qid=1516879963&sr=8-3&keywords=lector+codigo+barras
       - P2 : enviar comanda i rebre resposta -> bàscula ? (python)
    - Conversió int to hex, bytes, bits
    - Llegir i escriure modbus
@@ -43,6 +44,10 @@
       - Arduino <-> PC
       - PC envia trames i Arduino actua i contesta
       - SOH o STX/Random hash/bloc dades/checksum/ETX  //checksum = xor ^, suma bytes de random hash i bloc de dades
+      - SOH-FUNCIO-N_BYTES-BLOC_DADES-CRC-ETX 
+          - CRC = SOH+FUNCIO+N_BYTES+BLOC_DADES
+          - 1-0-0-02  (funció 0 retorna status)
+          - 1-1-100-101-2     (la funció 1 posa l'actuador X a 100 -> crc = 101)
    - Llegir sensor i2C
    - Projecte final
       
