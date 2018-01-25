@@ -28,6 +28,7 @@
 - http://plc-hmi-scadas.com/TIA_Portal_Modbus_RTU.php
 - http://plc-hmi-scadas.com/083.php / Simatic 1200 Servidor ModbusTCP
 - RS232/Sèrie 1 a 1 (amb moxa eth puc apuntar a diverser ips), RS485/Modbus 1 Màster i múltiples slaves
+- http://www.modbustools.com/modbus_poll.html
 - Pràctiques :   
    - Llegir i escriue per port sèrie
       - Exemple "industrial" : bàscula, electrònica/sensor, lector codis de barres
