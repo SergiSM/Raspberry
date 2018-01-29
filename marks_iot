@@ -47,5 +47,46 @@ https://github.com/256dpi/arduino-mqtt
     - sms
     - gsm/3g
     
+Per wifi : nodemcu
+Per bluetooth : fer servir arduino kit anterior
 
+wifi
+  - actuador : web -> on/off led
+  - sensor : tempertura -> web
+  - twitter (temperatura cada x minuts), google calendar (llegir calendar i fer acció)
+  
+bluetooth
+  - aplicació pc : llegir i enviar dades per bluetooth (sharpdevelop, lazarus, python, ...) / Encendre led i llegir temperatures
+  - app phonegap
+  http://www.electronicwings.com/nodemcu/hc-05-bluetooth-module-interfacing-with-nodemcu
+  
+ rfid
+  - arduino : llegir codi i : on/off led, moure servo, beep lectura ok, ...
+  - pc : comunicació port sèrie i bbdd o csv amb id/hora, foto usuari tipus control accès
+  
+lcd display
+   - display temperatura
+
+Arduino Avançat (amb placa NodeMCU)
+- Introducció a les plaques Arduino més noves (Yún, Mrk100, Mkr1200, ...) i sobre el concepte de Shield. 
+- NodeMCU com a alternativa a l'Arduino.
+- Bones pràctiques de la programació amb Arduino (separar un sketch en múltiples fitxers, ús de la funció millis, ...)
+- Displays : Mostrar dades d'un sensor en una pantalla OLED.
+- RFID : Llegir tags RFID i activar actuadors en funció del codi llegit.
+- Bluetooth : Enviament de dades de sensors cap a una app. Rebuda d'ordres des d'una app per controlar actuadors.
+- Wifi :
+  - Enviar dades de sensors al núvol i controlar actuadors des d'una web o una app. 
+  - Enviar dades d'un sensor per Telegram. Rebre ordres per Telegram per controlar actuadors.
+
+IOT (amb placa NodeMCU)  
+- Introducció a algunes de les plaques orientades al IOT (Arduino Yún, NodeMCU, Raspberry Pi, ...)
+- NodeMCU com a servidor web
+- NodeMCU com a client web
+  - Enviar tweet cada X minuts amb temperatura
+  - Pujar dades a una plataforma Cloud gratuita. Crear un dashboard web per supervisar l'estat de diversos sensors i controlar remotament diferents actuadors
+  - Enviar un tweet amb dades de sensors.
+  - Enviar mail amb dades de sensors.
+  - Enviar missatge de Telegram amb dades de sensors. Rebre missatge de Telegram per activar actuadors.
+- Introducció al protocol MQTT. Pràctica d'exemple.
+- Introducció a la plataforma IFTT (If this then that).
 
