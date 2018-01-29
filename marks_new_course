@@ -37,6 +37,7 @@
              https://www.amazon.es/Esc%C3%A1ner-Autom%C3%A1tico-Velocidad-Ajustable-Compatible/dp/B01NBHYTCB/ref=sr_1_3?ie=UTF8&qid=1516879963&sr=8-3&keywords=lector+codigo+barras
       - P2 : enviar comanda i rebre resposta -> bàscula ? (python)
       - http://www.cablematic.es/buscador/modbus/Sensor-de-humedad-y-temperatura-compatible-TTL-RS232-RS485-modelo-USR_hyphen_SENS_hyphen_WSD_hyphen_4/UK81/?pag=1
+      - Vatímetre / Communication Protocol / http://www.support-carlogavazzi.se/downloads%5CControls%5CWM30-WM40%20CP%20V2R2%20October%202010.pdf
    - Conversió int to hex, bytes, bits
    - Llegir i escriure modbus
       - P3 : Amb llibreria 
