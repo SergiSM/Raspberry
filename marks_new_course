@@ -122,8 +122,10 @@
 - S7-1200 MODBUS : https://www.plc-city.com/shop/es/siemens-simatic-s7-1200-communication-modules/6es7241-1ch32-0xb0.html?gmc_currency=1&gclid=EAIaIQobChMI-5b7v6n92AIVISjTCh3yUAD0EAYYASABEgLeNfD_BwE
 - S7-1200 RFID : https://support.industry.siemens.com/cs/document/109483416/rfid-basic-examples?dti=0&lc=en-US
    - http://w3.siemens.com/mcms/identification-systems/en/rfid-systems/pages/rfid-systems.aspx
-   
-- RFID
+- INDICADOR DE PESO RS232 CON MODULO CM1214 RS232 Y PLC S7 1200 DE SIEMENS
+   - https://www.youtube.com/watch?v=-xgNOuslGuw
+- S7-1200/S7-1500: How to receive a string from a PC using CM1241 RS232
+   - https://www.youtube.com/watch?v=CylkADDOwwk
 - Pràctiques :
    - Muntatge des de zero, plc ,font, switch, ...
    - As-i
