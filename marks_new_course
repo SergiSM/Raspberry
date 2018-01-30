@@ -1,6 +1,7 @@
 ### estructures i protocols de comunicació
 - https://es.wikipedia.org/wiki/Modelo_OSI
 - Protocol comunicació bàscula(sèrie), vatímetre(modbus), i2c, ... -> emulació sobre arduino
+- http://www.simplymodbus.ca/FAQ.htm
 - Tunejar protocol mòdul wifi, mandos
 - https://sensing.honeywell.com/honeywell-white-paper-communication-protocol-002415-1-en2.pdf
 - Slideshare : 
@@ -129,6 +130,7 @@
 - Canal Youtube Industrial Networks https://www.youtube.com/channel/UCpBzhgHMA4fccaFbTlYadQQ
 - HMI with C# and WPF part 3: communication with multiple PLC (S7 and Modbus) - Mesta Automation
  - https://www.youtube.com/watch?v=26tzSJDpbvE
+- http://w3.siemens.com/mcms/pc-based-automation/en/industrial-iot/pages/default.aspx 
 - Pràctiques :
    - Muntatge des de zero, plc ,font, switch, ...
    - As-i
