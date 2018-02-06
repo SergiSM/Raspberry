@@ -19,3 +19,6 @@ While True:
     time.sleep(2)
 
 plc.disconnect()
+
+
+#https://sourceforge.net/p/snap7/discussion/general/thread/d93dac71/
