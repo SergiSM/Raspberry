@@ -1,4 +1,5 @@
 ### estructures i protocols de comunicació
+- https://www.luisllamas.es/arduino-rs485-max485/
 - https://es.wikipedia.org/wiki/Modelo_OSI
 - Protocol comunicació bàscula(sèrie), vatímetre(modbus), i2c, ... -> emulació sobre arduino
 - http://www.simplymodbus.ca/FAQ.htm
