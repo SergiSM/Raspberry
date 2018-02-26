@@ -1,0 +1,38 @@
+- http://www.c-sharpcorner.com/article/creating-C-Sharp-class-library-dll-using-visual-studio-net/
+
+- File->New->Project->Visual C# Projects->Class Library
+
+namespace ClassLibrary1
+{
+    public class Class1
+    {
+        public bool bTest = false;
+        
+        public long Add(long val1, long val2)
+        {
+            return val1 + val2; 
+        }
+    }
+}
+
+- File->New->Project->Visual C# Projects-> Windows Forms
+
+using ClassLibrary1;
+
+namespace Prova_DLL
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Class1 a = new Class1();
+            a.bTest = false;
+            MessageBox.Show(a.Add(1, 2).ToString());
+        }
+    }
+}
