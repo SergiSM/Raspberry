@@ -1,14 +1,4 @@
 
-Indica algunes de les característiques que converteixen l'Ethernet com l'estàndard de futur en gran part de les comunicacions industrials.
-
-A la pràctica de supervisió i control via web :
-   - On estan allotjades les pàgines que ens permeten interactuar amb el PLC ?
-   - Quines avantatges aporta la web respecte a altres interfícies de comunicació amb l'usuari (HMI, PC)
-   
-Quines interfícies de comunicació amb l'usuari hem après a fer servir a classe ? Fes una petita descripció de cadascuna indicant en quin escenari
-la faries servir.
-
-
 ### estructures i protocols de comunicació
 - https://www.luisllamas.es/arduino-rs485-max485/
 - https://es.wikipedia.org/wiki/Modelo_OSI
