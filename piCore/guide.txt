@@ -2,3 +2,20 @@ https://iotbytes.wordpress.com/picore-tiny-core-linux-on-raspberry-pi/
 
 Install Python
 tce-load -wi python.tcz
+
+Wifi
+tce-load -wi firmware-rpi3-wireless
+echo "firmware-rpi3-wireless" >> /mnt/mmcblk0p2/tce/onboot.lst
+tce-load -wi wifi.tcz
+filetool.sh -b
+sudo reboot
+sudo wifi.sh #first time enter user and password
+
+echo "wifi.tcz" >> /mnt/mmcblk0p2/tce/onboot.lst
+
+also put the command in /opt/bootlocal.sh to automatically connect at start.
+echo "sudo wifi.sh -a" >> /opt/bootlocal.sh
+
+filetool.sh -b
+
+sudo reboot
