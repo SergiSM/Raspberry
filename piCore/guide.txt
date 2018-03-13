@@ -1,0 +1,4 @@
+https://iotbytes.wordpress.com/picore-tiny-core-linux-on-raspberry-pi/
+
+Install Python
+tce-load -wi python.tcz
