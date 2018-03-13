@@ -19,3 +19,6 @@ echo "sudo wifi.sh -a" >> /opt/bootlocal.sh
 filetool.sh -b
 
 sudo reboot
+
+HOSTAPD
+http://forum.tinycorelinux.net/index.php?topic=17221.0
