@@ -1,3 +1,5 @@
+Store scripts in /mnt/mmxxx02/tce
+
 https://iotbytes.wordpress.com/picore-tiny-core-linux-on-raspberry-pi/
 
 Install Python
