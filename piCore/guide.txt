@@ -22,3 +22,6 @@ sudo reboot
 
 HOSTAPD
 http://forum.tinycorelinux.net/index.php?topic=17221.0
+
+PYTHON PIP
+http://forum.tinycorelinux.net/index.php?topic=14920.0
