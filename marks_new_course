@@ -55,6 +55,8 @@
           - 1-1-100-101-2     (la funció 1 posa l'actuador X a 100 -> crc = 101)
    - Llegir sensor i2C
    - Projecte final
+   - Introducción a Siemens Profinet
+      - https://www.youtube.com/watch?v=dvHl6daktGY
       
    
 
