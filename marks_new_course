@@ -168,5 +168,7 @@ An Arduino library for calculating a CRC32 checksum.
    https://es.slideshare.net/DMCChicago/pushing-data-from-s71200-to-cloud
 - MQTT Publisher for SIMATIC CPU
    https://support.industry.siemens.com/cs/document/109748872/mqtt-publisher-for-simatic-cpu?dti=0&lc=en-WW
+- MQTT Publisher (unencrypted) for the S7-1500/ S7-1200 and S7-300
+   https://cache.industry.siemens.com/dl/files/872/109748872/att_942403/v1/109748872_MqttClient_Publish_Unsecure_DOKU_en.pdf
    
    
