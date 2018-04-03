@@ -166,5 +166,7 @@ An Arduino library for calculating a CRC32 checksum.
 - Passarela modbus cap al núvol
 - Pushing Data from S7-1200 to Cloud
    https://es.slideshare.net/DMCChicago/pushing-data-from-s71200-to-cloud
+- MQTT Publisher for SIMATIC CPU
+   https://support.industry.siemens.com/cs/document/109748872/mqtt-publisher-for-simatic-cpu?dti=0&lc=en-WW
    
    
