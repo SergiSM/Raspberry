@@ -1,3 +1,5 @@
+An Arduino library for calculating a CRC32 checksum.
+   https://github.com/bakercp/CRC32
 
 ### estructures i protocols de comunicació
 - https://www.luisllamas.es/arduino-rs485-max485/
