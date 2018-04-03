@@ -63,7 +63,11 @@ An Arduino library for calculating a CRC32 checksum.
    
 
 ### sistemes de control i supervisió de processos
+- Teoria, pràctiques entrenament i pràctica final
 - HMI i SCADA (wincc i c#)
+- HMI alarmes
+- Integració amb ERP (http://flexmaint.com, gestió incidències free)
+- Runtime WinCC amb més funcions (gràfiques, logs, widgets, creació d'informes)
 - sense as-i ?
 - explicar altres solucions, panel pc, terminals mòbils, ...
 - opc server, activeX, ...
@@ -174,4 +178,5 @@ An Arduino library for calculating a CRC32 checksum.
    https://www.youtube.com/watch?v=KGaa_cgcyCI
 - Conexión directa S7-1200 o S7-1500 con la nube de DarwinData
    http://www.infoplc.net/noticias/item/104421-conexion-directa-siemens-s7-1200-s7-1500-nube-darwindata
-   
+- Siemens S7 IoT - Industrial Internet of Things Siemens S7 Communication Driver
+   https://www.youtube.com/watch?v=9fh7C6TuP2k
