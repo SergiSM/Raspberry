@@ -172,4 +172,6 @@ An Arduino library for calculating a CRC32 checksum.
    https://cache.industry.siemens.com/dl/files/872/109748872/att_942403/v1/109748872_MqttClient_Publish_Unsecure_DOKU_en.pdf
 - Sending Data from Siemens S7 PLC to MQTT Client (Demo)
    https://www.youtube.com/watch?v=KGaa_cgcyCI
+- Conexión directa S7-1200 o S7-1500 con la nube de DarwinData
+   http://www.infoplc.net/noticias/item/104421-conexion-directa-siemens-s7-1200-s7-1500-nube-darwindata
    
