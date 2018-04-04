@@ -98,6 +98,8 @@ An Arduino library for calculating a CRC32 checksum.
       - Sharpdevelop/Visual 
 
 ### xarxes industrials
+- DB9 MODBUS
+   https://www.amazon.es/Adapter-Signale-Klemme-Breakout-Plastikabdeckung-Schraube/dp/B017M4QWIA/ref=sr_1_1?s=electronics&ie=UTF8&qid=1522855361&sr=1-1&keywords=db9&th=1
 -  Per que SI ES CONFIGURA COM A ESCLAU, NOMÉS POT LLEGIR I ESCRIRE HOLDING REGISTERS
    https://support.industry.siemens.com/tf/WW/en/posts/please-help-modbus-rtu-slave-s7-1200-giving-address/154550?page=0&pageSize=10
    Modbus RTU Slave protocol is only partially implemented in the S7-1200. Only the read and write of registers 40001 ++ is implemented.
