@@ -98,6 +98,8 @@ An Arduino library for calculating a CRC32 checksum.
       - Sharpdevelop/Visual 
 
 ### xarxes industrials
+- Using an S7-1200 PLC as a Modbus TCP Slave
+   https://www.dmcinfo.com/latest-thinking/blog/id/8869/using-an-s7-1200-plc-as-a-modbus-tcp-slave
 - Manual S7-1200 
    https://support.industry.siemens.com/cs/attachments/107623221/s71200_system_manual_en-US_en-US.pdf?download=true
    Pàg. 1265 Config Modbus
