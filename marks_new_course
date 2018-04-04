@@ -100,7 +100,9 @@ An Arduino library for calculating a CRC32 checksum.
 ### xarxes industrials
 -  Per que SI ES CONFIGURA COM A ESCLAU, NOMÉS POT LLEGIR I ESCRIRE HOLDING REGISTERS
    https://support.industry.siemens.com/tf/WW/en/posts/please-help-modbus-rtu-slave-s7-1200-giving-address/154550?page=0&pageSize=10
-   Modbus RTU Slave protocol is only partially implemented in the S7-1200. Only the read and write of registers 40001 ++ is implemented. There is nothing else you can do, unless you create the coding to implement more Modbus functionality. 
+   Modbus RTU Slave protocol is only partially implemented in the S7-1200. Only the read and write of registers 40001 ++ is implemented.
+   There is nothing else you can do, unless you create the coding to implement more Modbus functionality. 
+   https://support.industry.siemens.com/tf/ww/en/posts/how-to-organize-the-register-in-the-slave-modbus-rtu-slave-s7-1200/170045/?page=0&pageSize=10
 - Compressors Atlas Copco que porten Modbus
    https://www.atlascopco.com/es-pa/compressors/products/Medical_gas_equipment/es_medical_central_controller
    http://read.pudn.com/downloads156/doc/comm/696115/UserGuideMkIVModbus01.pdf
