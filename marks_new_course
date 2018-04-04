@@ -98,7 +98,21 @@ An Arduino library for calculating a CRC32 checksum.
       - Sharpdevelop/Visual 
 
 ### xarxes industrials
+- As-i
+   - 1 esclau
+   - 2 esclaus
+- Modbus
+   - rtu
+      - master - llegir i escriure d'esclau (recuperador, plc)
+      - slave - plc o pc llegeix i escriu a esclau (només holdings - altres registre dins de holdings)
+   - tcp
+- Profinet
+   - plc 1200 llegeix entrades d'un altre plc i activa sortides d'un altre plc
+- Profibus ?
+- Gateway ?
+
 - DB9 MODBUS
+   https://www.ebay.com/itm/5-set-Serial-RS232-DB9-9-PIN-MALE-Assembly-Solder-Plug-Connector-with-Shell/331102857652?hash=item4d1744a9b4
    https://www.amazon.es/Adapter-Signale-Klemme-Breakout-Plastikabdeckung-Schraube/dp/B017M4QWIA/ref=sr_1_1?s=electronics&ie=UTF8&qid=1522855361&sr=1-1&keywords=db9&th=1
 -  Per que SI ES CONFIGURA COM A ESCLAU, NOMÉS POT LLEGIR I ESCRIRE HOLDING REGISTERS
    https://support.industry.siemens.com/tf/WW/en/posts/please-help-modbus-rtu-slave-s7-1200-giving-address/154550?page=0&pageSize=10
