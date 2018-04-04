@@ -98,6 +98,14 @@ An Arduino library for calculating a CRC32 checksum.
       - Sharpdevelop/Visual 
 
 ### xarxes industrials
+- Manual S7-1200 
+   https://support.industry.siemens.com/cs/attachments/107623221/s71200_system_manual_en-US_en-US.pdf?download=true
+   Pàg. 1265 Config Modbus
+- TIA Portal v13 - Clase 6 - Modbus RTU S7 1200 Slave 
+   https://www.youtube.com/watch?v=5Le6vOlnDOg
+- Muntatge des de zero : plc, font, master as-i, mòdul mòdbus, alimentació, ...,
+- S7-1200 Modbus com a màster -> llegir i escriure de recuperador
+- S7-1200 Modbus com a esclau. Llavors des d'un master (PC o PLC) llegir i escriure d'aquest esclau.
 - Examen a meitat de curs
 - Piràmide comunicacions, Busos industrials (Ethernet industrial, profibus, ...)
 - Bus As-i (configurar múltiples esclaus)
