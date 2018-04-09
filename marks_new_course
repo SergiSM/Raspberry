@@ -4,6 +4,8 @@ An Arduino library for calculating a CRC32 checksum.
    https://github.com/bakercp/CRC32
 
 ### estructures i protocols de comunicació
+- Comunicación RS485 con Arduino (Molt interessant, simplex , half duplex, full duplex)
+   http://www.naylampmechatronics.com/blog/37_Comunicaci%C3%B3n-RS485-con-Arduino.html
 - Placa relés rs485
    https://es.aliexpress.com/item/12V-RS485-Relay-4CH-Modbus-RTU-PC-UART-Board-for-PLC-Lamp-LED-PTZ-Camera-Control/32756810257.html?spm=a219c.10010108.1000015.9.49154807NUJ977
    https://es.aliexpress.com/item/8CH-dc-12V-Modbus-RTU-RS485-Relay-Module-Switch-Board-for-PLC-Lamp-LED-PTZ-Camera/32812380383.html?src=google&albslr=221722480&isdl=y&aff_short_key=UneMJZVf&source=%7Bifdyn:dyn%7D%7Bifpla:pla%7D%7Bifdbm:DBM&albch=DID%7D&src=google&albch=shopping&acnt=494-037-6276&isdl=y&albcp=652736826&albag=32471627666&slnk=&trgt=68416666751&plac=&crea=es32812380383&netw=g&device=c&mtctp=&gclid=EAIaIQobChMIk_uPw7at2gIVRTPTCh0PSAUkEAQYAiABEgJ60vD_BwE&gclsrc=aw.ds
