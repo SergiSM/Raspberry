@@ -4,6 +4,8 @@ An Arduino library for calculating a CRC32 checksum.
    https://github.com/bakercp/CRC32
 
 ### estructures i protocols de comunicació
+- Placa relés rs485
+   https://es.aliexpress.com/item/8CH-dc-12V-Modbus-RTU-RS485-Relay-Module-Switch-Board-for-PLC-Lamp-LED-PTZ-Camera/32812380383.html?src=google&albslr=221722480&isdl=y&aff_short_key=UneMJZVf&source=%7Bifdyn:dyn%7D%7Bifpla:pla%7D%7Bifdbm:DBM&albch=DID%7D&src=google&albch=shopping&acnt=494-037-6276&isdl=y&albcp=652736826&albag=32471627666&slnk=&trgt=68416666751&plac=&crea=es32812380383&netw=g&device=c&mtctp=&gclid=EAIaIQobChMIk_uPw7at2gIVRTPTCh0PSAUkEAQYAiABEgJ60vD_BwE&gclsrc=aw.ds
 - https://www.luisllamas.es/arduino-rs485-max485/
 - https://es.wikipedia.org/wiki/Modelo_OSI
 - Protocol comunicació bàscula(sèrie), vatímetre(modbus), i2c, ... -> emulació sobre arduino
