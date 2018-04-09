@@ -120,6 +120,8 @@ An Arduino library for calculating a CRC32 checksum.
 - Profibus ?
 - Gateway ?
 
+- S7 1200 - Modbus TCP Master
+   https://plc-hmi-scadas.com/083.php
 - DB9 MODBUS
    https://www.ebay.com/itm/5-set-Serial-RS232-DB9-9-PIN-MALE-Assembly-Solder-Plug-Connector-with-Shell/331102857652?hash=item4d1744a9b4
    https://www.amazon.es/Adapter-Signale-Klemme-Breakout-Plastikabdeckung-Schraube/dp/B017M4QWIA/ref=sr_1_1?s=electronics&ie=UTF8&qid=1522855361&sr=1-1&keywords=db9&th=1
