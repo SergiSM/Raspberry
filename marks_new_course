@@ -204,6 +204,8 @@ An Arduino library for calculating a CRC32 checksum.
       - Canvi adreces i xarxa amb múltiples esclaus
    - Intercanvi de dades entre PLCs
       - http://www.infoplc.net/descargas/103-siemens/automatas/s7-1200/2259-comunicacion-profinet-s7-1200 (bona explicació ethernet industrial)
+  https://es.slideshare.net/victormartineziesve/comunicaciones-industriales-presentacion?qid=a19f891c-d5b7-4b60-a8ce-57fce96d35d7&v=&b=&from_search=23
+  
    
 ### sistemes d'accés remot a processos industrials
 - Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
