@@ -205,6 +205,11 @@ An Arduino library for calculating a CRC32 checksum.
    - Intercanvi de dades entre PLCs
       - http://www.infoplc.net/descargas/103-siemens/automatas/s7-1200/2259-comunicacion-profinet-s7-1200 (bona explicació ethernet industrial)
   https://es.slideshare.net/victormartineziesve/comunicaciones-industriales-presentacion?qid=a19f891c-d5b7-4b60-a8ce-57fce96d35d7&v=&b=&from_search=23
+  https://es.slideshare.net/CESILLAS/00-comunicaciones-industriales?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=1
+  https://es.slideshare.net/ncchio/comunicaciones-industriales?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=3
+  https://es.slideshare.net/johpatri/comunicaciones-ind?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=5
+  https://es.slideshare.net/carlos46/a-introduccion-a-las-comunicaciones-industriales?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=10
+  https://es.slideshare.net/alex_black/alexblack-testing?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=18
   
    
 ### sistemes d'accés remot a processos industrials
@@ -240,3 +245,4 @@ An Arduino library for calculating a CRC32 checksum.
    https://tienda.rtcautomatismos.com/buscar?controller=search&orderby=position&orderway=desc&search_query=modbus
 - Q064 USR-GPRS232-730 Serial RS232/RS485 al Convertidor de Módems GSM GPRS DTU Servidor TCP y UDP Compatibles de Control de Flujo
    https://es.aliexpress.com/store/product/Q048-USR-GPRS232-730-GPRS-DTU-Serial-RS232-RS485-to-GSM-Server-TCP-and-UDP-Supported/1754788_32639464041.html?spm=a219c.search0204.3.14.3b336fccrTe9gB&ws_ab_test=searchweb0_0%2Csearchweb201602_1_10152_10065_10151_10344_10068_10342_10547_10343_10340_5722611_10341_10548_10698_10697_10696_5722911_5722811_10084_5722711_10083_10618_10307_10301_10303_10059_10184_10534_308_100031_10103_441_10624_10623_10622_10621_10620_5723011_5722511%2Csearchweb201603_25%2CppcSwitch_4_ppcChannel&algo_expid=895cc49f-2f80-4219-8ac2-f239d92cbb0a-2&algo_pvid=895cc49f-2f80-4219-8ac2-f239d92cbb0a&priceBeautifyAB=0
+  https://es.slideshare.net/control4humans/apuntes-sobre-seguridad-de-comunicaciones-en-entornos-industriales-14529746?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=9
