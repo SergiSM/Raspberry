@@ -3,6 +3,9 @@
 An Arduino library for calculating a CRC32 checksum.
    https://github.com/bakercp/CRC32
 
+Exàmens tipus test
+Treball buscar respostes a preguntes
+
 ### estructures i protocols de comunicació
 - Comunicación RS485 con Arduino (Molt interessant, simplex , half duplex, full duplex)
    http://www.naylampmechatronics.com/blog/37_Comunicaci%C3%B3n-RS485-con-Arduino.html
