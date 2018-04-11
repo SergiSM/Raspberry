@@ -71,6 +71,7 @@ Treball buscar respostes a preguntes
    - Projecte final
    - Introducción a Siemens Profinet
       - https://www.youtube.com/watch?v=dvHl6daktGY
+   - http://www.infoplc.net/descargas/103-siemens/automatas/s7-1200/2297-opc-server-siemens-s7-1200 (info rs232 i rs485)
    - RS 485
       https://es.slideshare.net/galacticor7/rs-232-y-rs485-20671410?qid=a19f891c-d5b7-4b60-a8ce-57fce96d35d7&v=&b=&from_search=1
       https://es.slideshare.net/MiguelAngelAnyell/rs485-16373439?qid=a19f891c-d5b7-4b60-a8ce-57fce96d35d7&v=&b=&from_search=4
@@ -157,6 +158,8 @@ Treball buscar respostes a preguntes
 - http://bibing.us.es/proyectos/abreproy/11676/fichero/Volumen+1%252FAnexo.pdf
 - Using an S7-1200 PLC as a Modbus TCP Slave
    https://www.dmcinfo.com/latest-thinking/blog/id/8869/using-an-s7-1200-plc-as-a-modbus-tcp-slave
+- OPC Server para PLC Siemens S7-1200
+   http://www.infoplc.net/descargas/103-siemens/automatas/s7-1200/2297-opc-server-siemens-s7-1200
 - Manual S7-1200 
    https://support.industry.siemens.com/cs/attachments/107623221/s71200_system_manual_en-US_en-US.pdf?download=true
    Pàg. 1265 Config Modbus
