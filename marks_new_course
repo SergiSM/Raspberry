@@ -1,3 +1,10 @@
+- Pràctica S7-1200/Modbus com a master llegint de placa
+- Pràctica S7-1200/Modbus com a slave i PC llegint dades
+- Pràctica S7-1200/AS-i
+- Pràctica S7-1200/As-i múltiples esclaus
+- Pràctica S7-1200 intercanviant info amb altres PLCS (SEND/RECEIVE) (PUT/GET)
+
+
 **** A Code hi ha guia S7-1200 - Modbus Master ***
 
 An Arduino library for calculating a CRC32 checksum.
