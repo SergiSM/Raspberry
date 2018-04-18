@@ -104,6 +104,7 @@ Treball buscar respostes a preguntes
    https://www.youtube.com/watch?v=EBnWfGH6l8o
 - Data logging in PLC l Data logging S7 1200 PLC l Tia portal l Siemens *** Log en el plc i fitxer accessible via webserver
    https://www.youtube.com/watch?v=yp9RIMcdVqY
+   https://www.youtube.com/watch?v=E2tdtwrT_sE
 - HMI i SCADA (wincc i c#)
 - HMI alarmes
 - Integració amb ERP (http://flexmaint.com, gestió incidències free)
@@ -152,6 +153,8 @@ Treball buscar respostes a preguntes
 - Profibus ?
 - Gateway ?
 
+- Direccionamiento IPv4 y Subredes (Explicado)
+   https://www.youtube.com/watch?v=SHbBso63X38
 - TIA Portal S71200 sending data from PLC to PC by TUSEND-command, test the functionality (a la llista de reproducció altres videos interessants)
    https://www.youtube.com/watch?v=dW8nYRdQ4bI
 - PLC to PLC communication l Modbus TCP/IP l TIA portal l Siemens  ***********
@@ -283,3 +286,5 @@ Treball buscar respostes a preguntes
    https://www.youtube.com/watch?v=ZwFXti8nupA
   Getting Started with IIoT using OPC UA
    https://www.youtube.com/watch?v=Li3P68uuPZ8
+  Modbus TCP/IP Programming With Android Devices
+   https://www.youtube.com/watch?v=Y-VFXNeZcVM
