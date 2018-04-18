@@ -88,7 +88,9 @@ Treball buscar respostes a preguntes
    - RS 232
       https://es.slideshare.net/sandeepkamath2010/rs-232-12241454?next_slideshow=1
       https://es.slideshare.net/TethAzraelCortsAguilar/protocolo-comunicacin-serial?qid=a19f891c-d5b7-4b60-a8ce-57fce96d35d7&v=&b=&from_search=21
-   
+   https://www.amazon.es/Converter-Protection-Industrial-Instrument-Collection/dp/B01LVVI1XI/ref=sr_1_1_sspa?ie=UTF8&qid=1524060692&sr=8-1-spons&keywords=rs232#customerReviews
+   https://balanzadirect.com/balanzas-industriales/balanzas-homologadas/serie-s4-verificada.html
+   Emular bàscula... amb arduino que sempre envii, o envii sengons paràmetre rebut (que retorni posició potenciòmetre, llum, temperatura,etc)
 
 ### sistemes de control i supervisió de processos
 - Teoria, pràctiques entrenament i pràctica final
@@ -153,6 +155,13 @@ Treball buscar respostes a preguntes
 - Profibus ?
 - Gateway ?
 
+- S7-1200 - Actualización de Firmware de V4.0 a V4.1
+   https://www.youtube.com/watch?v=GZsNQb_eg-o
+- https://www.automation24.es/modulos-de-comunicaciones
+- S7-1200/S7-1500: How to receive a string from a PC using CM1241 RS232
+   https://www.youtube.com/watch?v=CylkADDOwwk
+- How to Connect a PLC to an RFID Reader in Minutes
+   https://www.youtube.com/watch?v=K4iwtjiV1YU
 - Direccionamiento IPv4 y Subredes (Explicado)
    https://www.youtube.com/watch?v=SHbBso63X38
 - TIA Portal S71200 sending data from PLC to PC by TUSEND-command, test the functionality (a la llista de reproducció altres videos interessants)
@@ -246,9 +255,13 @@ Treball buscar respostes a preguntes
   https://es.slideshare.net/johpatri/comunicaciones-ind?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=5
   https://es.slideshare.net/carlos46/a-introduccion-a-las-comunicaciones-industriales?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=10
   https://es.slideshare.net/alex_black/alexblack-testing?qid=eb8f5ff6-208e-450c-be6e-236cb06c8adf&v=&b=&from_search=18
+  How Barcodes Work
+   https://www.youtube.com/watch?v=e6aR1k-ympo
   
    
 ### sistemes d'accés remot a processos industrials
+- Comunicación de un OPC con un controlador S7-1200
+   https://www.youtube.com/watch?v=j3cLFLBMW6Q
 - Remote Automation : https://www.moxa.com/Remote_Automation/index.aspx
 - http://mtxm2m.com/product/router/mtx-router-titan-3g (www.matrix.es)
 - ftp://ftp.matrix.es/mtxm2m/Routers%20M2M/MTX-Router-Titan/Aplication_notes_ESpa%C3%B1ol/
