@@ -146,9 +146,14 @@ Treball buscar respostes a preguntes
    - tcp
 - Profinet
    - plc 1200 llegeix entrades d'un altre plc i activa sortides d'un altre plc
+   TIA Portal S71200 receiving data from PC by TURCV-command ... per enviar dades cap a un pc i per rebre dades d'un pc via udp ethernet
 - Profibus ?
 - Gateway ?
 
+- TIA Portal S71200 sending data from PLC to PC by TUSEND-command, test the functionality (a la llista de reproducció altres videos interessants)
+   https://www.youtube.com/watch?v=dW8nYRdQ4bI
+- PLC to PLC communication l Modbus TCP/IP l TIA portal l Siemens  ***********
+   https://www.youtube.com/watch?v=UeXT9rxjL7o
 - S7 1200 - Modbus TCP Master
    https://plc-hmi-scadas.com/083.php
 - DB9 MODBUS
