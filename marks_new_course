@@ -14,6 +14,8 @@ Exàmens tipus test
 Treball buscar respostes a preguntes
 
 ### estructures i protocols de comunicació
+- Creacion servidor tcp para Modbus/TCP
+   https://www.youtube.com/watch?v=viAZxw27sAM
 - Model OSI
    https://es.slideshare.net/elfunebrero/capas-de-modelo-osi-presentation?qid=37239c8b-755b-48c5-8cd9-7c15950c1d77&v=&b=&from_search=5
    https://es.slideshare.net/daely64/protocolos-de-cada-capa-del-modelo-osi?next_slideshow=1
