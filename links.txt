@@ -12,3 +12,13 @@ http://forum.unitronics.com/topic/4954-v570-tcpip-connection-not-establishing/
 http://www.side-automatizacion.com/es/system/files/suport/20.-comunicaciones_modbus_tcp_ip_0.pdf
 http://www.side-automatizacion.com/es/system/files/suport/visilogic20-20communications.pdf
 http://media.klinkmann.fi/catalogue/en/Unitronics/Unitronics_Manuals_Ethernet-Vision_en_0511.pdf
+
+http://www.instructables.com/id/Raspberry-Pi-Arduino-Serial-Communication/	
+http://www.embeddedpi.com/edge-gateway
+
+https://realpython.com/
+
+http://www.java2s.com/Code/CSharp/Design-Patterns
+http://nerdlabs.com.ar/blog/
+
+https://naylampmechatronics.com/blog/37_Comunicación-RS485-con-Arduino.html
