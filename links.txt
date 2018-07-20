@@ -37,3 +37,606 @@ http://thisdavej.com/using-visual-studio-code-with-a-raspberry-pi-raspbian/
 
 https://pythonspot.com/en/web-dev/
 https://pythonspot.com/en/creating-a-webbrowser-with-python-and-pyqt-tutorial/
+
+
+http://wiki.joanillo.org/index.php/P%C3%A0gina_principal
+
+http://myhowtosandprojects.blogspot.com.es/2013/12/how-to-setup-usb-3g-modem-linux.html
+https://ubanov.wordpress.com/2011/11/22/conectar-a-internet-por-3g-umts-desde-linea-de-comando-linux/
+http://www.juanjosevalera.com/archivos/huawei-e220-configuracion-en-raspberry-pi/
+
+
+http://fpaez.com/llamadas-y-sms-usando-un-modulo-sim900-y-raspberry-pi/
+http://fpaez.com/como-arrancar-tu-raspberry-pi-en-modo-quiosco/
+
+
+
+Raspbian with Read-only Root
+https://www.raspberrypi.org/forums/viewtopic.php?t=161416
+
+http://www.juanjosevalera.com/archivos/obtener-listado-de-clientes-de-hostapd/
+
+https://ultibo.org/
+
+https://learn.adafruit.com/read-only-raspberry-pi/
+
+
+CREAR UN EJECUTABLE .EXE EN PYTHON CON CX_FREEZE
+http://www.pythondiario.com/2014/12/crear-un-ejecutable-exe-en-python-con.html
+https://pythonschool.net/pyqt/distributing-your-application-on-windows/
+
+¿COMO CREAR CERTIFICADO IOS PARA PHONEGAP BUILD DESDE WINDOWS?
+http://www.phonegap.es/2015/03/como-crear-certificado-ios-para-phonegap-build-desde-windows/
+
+PHONEGAP/CORDOVA OK!!!
+https://github.com/gandhirajan
+
+WRITE A SIMPLE HTTP SERVER IN PYTHON
+https://www.acmesystems.it/python_httpd
+
+CREATING AN HTTPS SERVER IN PYTHON
+https://www.piware.de/2011/01/creating-an-https-server-in-python/
+
+CREATE CERFITICATE
+openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes
+
+RASPBERRY PI BARCODE SCANNER IN PYTHON (USB CAMERA)
+https://medium.com/@yushulx/raspberry-pi-barcode-scanner-in-python-927839100c6b#.bzufzgb8q
+
+
+https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/ethernet-gadget
+
+
+
+Mono remote debugging from Visual Studio
+http://stackoverflow.com/questions/23108728/mono-remote-debugging-from-visual-studio?rq=1
+
+Visual Studio - How to Attach Debugger to a Remote Server (Part 2)
+https://www.youtube.com/watch?v=S7Jcur8YAsw
+
+Detecting Text in a Local Image
+https://cloud.google.com/vision/docs/detecting-text#vision-text-detection-csharp
+
+Cloud Vision API Client Libraries
+https://cloud.google.com/vision/docs/reference/libraries
+
+email-mirror
+https://github.com/ronny3050/email-mirror/blob/master/notifier.js
+
+
+
+http://stackoverflow.com/questions/32440751/scan-networks-in-ap-mode-hostapd
+
+
+https://pymotw.com/2/BaseHTTPServer/
+
+http://bottlepy.org/docs/dev/
+
+https://randomnerdtutorials.com/esp8266-publishing-dht22-readings-to-sqlite-database/
+ 
+http://acacha.org/mediawiki/Sergi_Tur_HOWTOS#Sistemes
+
+Simple and functional REST server for Python (2.7) using no dependencies beyond the Python standard library.
+https://gist.github.com/tliron/8e9757180506f25e46d9
+
+
+
+
+Adafruit DS3231 Precision RTC Breakout
+https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout/assembly
+
+http://www.alvarolara.com/2014/08/29/punto-de-acceso-wifi-en-raspberry-pi/
+
+
+
+
+
+
+
+http://www.zdnet.com/article/iot-devices-can-be-hacked-in-minuteswarn-researchers/
+
+http://www.vicente-navarro.com/blog/2007/04/19/sobre-la-senal-sighup-nohup-disown-trap/
+
+https://jmtorres.webs.ull.es/me/proyecto/sistemas-operativos/
+
+Red AS-i con S7-1200: SIN configurar los esclavos en TIA Portal
+https://www.youtube.com/watch?v=1dtTGt7l0Cw
+
+
+TIA PORTAL 13/20: Red entre tres PLCs S7-1200
+https://www.youtube.com/watch?v=W8oIlHzksqU
+
+
+http://stackoverflow.com/questions/17809912/parsing-iw-wlan0-scan-output
+
+https://learn.adafruit.com/adafruit-guide-excellent-soldering
+
+how do you read the unique ID of an NFC tag on android?
+http://stackoverflow.com/questions/6060312/how-do-you-read-the-unique-id-of-an-nfc-tag-on-android
+
+https://appiotsp.azurewebsites.net/api/iot2?funct=config&mac=68:9E:19:77:99:FB
+
+http://www.pcworld.com/article/2861232/vulnerability-in-embedded-web-server-exposes-millions-of-routers-to-hacking.html
+
+problema service bus update
+
+https://github.com/Azure/azure-sdk-for-python/issues/671
+https://lnx.azurewebsites.net/azure-service-bus-python-error-could-not-convert-string-to-float-while-receiving-message/
+
+RECURSOS DE MOLTS LLENGUATGES
+https://www.libhunt.com/
+
+EXEMPLES PYTHON
+https://bitbucket.org/ljchlx/python-examples-from-intro-to-python-course/src
+
+https://readthedocs.org/
+
+https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#python
+
+https://pythontips.com/2016/07/11/400-free-resources-for-devops-sysadmins/
+
+flask
+http://stackoverflow.com/questions/15721679/update-and-render-a-value-from-flask-periodically
+
+http://elinux.org/RPI-Wireless-Hotspot
+
+http://askubuntu.com/questions/430382/repeat-a-command-every-x-interval-of-time-in-terminal
+
+http://www.idiotinside.com/topics/python/
+
+http://embedded-computing.com/articles/the-iot-doesnt-need-pocs/
+
+http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
+
+
+DICCIONARI
+http://iot-vmweb.cloudapp.net/apiSiP/v1/data/sensormap/devices/DOMEOLAB?user=labripoll@solerpalau.com&pass=sapadm123
+
+TELEMETRIA
+http://iot-vmweb.cloudapp.net/apiSiP/v1/data/telemetry/devices/DOMEOLAB?user=labripoll@solerpalau.com&pass=sapadm123&lastn=10
+
+TINY DEVICES
+http://jas-hacks.blogspot.com.es/
+
+http://stackoverflow.com/questions/33697263/python-snap7-windows-cant-find-snap7-library
+
+https://sergioprado.org/como-desenvolver-um-sistema-linux-do-zero-para-a-raspberry-pi/
+http://elinux.org/RPi_Linaro_GCC_Compilation
+https://www.raspberrypi.org/documentation/linux/kernel/building.md
+
+
+https://www.liferay.com
+https://metaphorm.wordpress.com/2016/03/28/running-liferay-6-2-on-raspberry-pi-2/
+http://crowdcomputing.world/install-liferay-on-raspberry-pi
+http://portal.desktopgridfederation.org/web/dutch-chapter/video-wall
+
+http://blog.scphillips.com/posts/2013/07/getting-a-python-script-to-run-in-the-background-as-a-service-on-boot/
+
+https://developers.google.com/edu/c++/getting-started
+
+https://firebase.google.com/docs/cloud-messaging/
+
+https://www.bayerschmidt.com/raspberry-pi/95-how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi.html
+
+AT LINUX COMMAND
+http://www.computerhope.com/unix/uat.htm
+
+https://pythonschool.net/pyqt/switching-layouts/
+
+http://www.sromero.org/wiki/linux/indice
+
+http://docs.python-guide.org/en/latest/writing/structure/
+
+http://userpages.umbc.edu/~dhood2/courses/cmsc433/spring2010/?section=Notes&topic=Python&notes=91
+
+OSBoxes offers you ready-to-use  VirtualBox VMware Linux/Unix guest operating systems.
+http://www.osboxes.org/
+
+Google drive command-line tools
+https://github.com/tienfuc/gdcmdtools
+
+Read and Write on NFC Tags with an Arduino
+http://www.allaboutcircuits.com/projects/read-and-write-on-nfc-tags-with-an-arduino/
+
+
+https://wiki.archlinux.org/index.php/Dnsmasq_(Espa%C3%B1ol)
+
+Después de configurar dnsmasq necesitará configurar el cliente DHCP para anteponer la dirección de localhost a las direcciones DNS presentes en /etc/resolv.conf. Esto hará que todas las consultas se envíen a dnsmasq antes de tratar de resolverlas a través de un DNS externo. Después de configurar el cliente DHCP necesitará reiniciar la red para que los cambios surtan efecto.
+
+
+
+
+Had the same problem, but really needed the dhcp server properly resolve the hostname as I intend to have multiple Yuns on my home network.   My home router is running DNSmasq which is set to respond to both dhcp and dns requests.
+
+Turns out linino needs one more config setting to have the hostname be part of the dhcp request. Edit /etc/config/network and add the following under the "config interface 'lan'" section:
+Code: [Select]
+option hostname "arduino"
+
+You can change the hostname to whatever you want, but make it match the name you have given your Yun in the "Yun Board Configuration" page (default is "arduino").
+
+Reboot your Yun and it should now show up with a nice name in the list of dchp clients on your router.
+
+
+
+https://nims11.wordpress.com/
+https://nims11.wordpress.com/2013/05/22/using-hostapd-with-dnsmasq-to-create-virtual-wifi-access-point-in-linux/
+
+
+http://blog.estimote.com/post/105963606605/how-to-develop-beacon-apps-in-javascript-with
+https://github.com/evothings/phonegap-estimotebeacons
+
+
+BLE
+http://www.software7.com/blog/creating-a-beacon-app-for-android-in-less-than-10-minutes-from-scratch/
+
+File System
+df -h
+  – Show file system usage
+
+du -hs
+  – Show current folder disc space usage
+
+du -a -h --max-depth=1 | sort -rh
+  – List 1st-level subfolders and files with size
+
+fdisk -l | grep Disk
+  – Display total harddisk size
+
+ls -lZ
+  – Display the security context associated with files or directories
+
+ls | wc -l
+  – List number of files and directories for the current folder
+
+dd if=/dev/zero of=<filename> bs=1024k count=10
+  – Create a 10MB file (file size = bs x count)
+
+tar -zxvOf filename.tar.gz somepath/yourfile.txt
+  – Print a text file in an archive to stdout
+  
+User and Group
+grep ^groupname /etc/group
+  – List all user of a group
+
+groupadd groupname
+  – Create new group
+
+groups
+  – List all groups of the current user
+
+htpasswd -c passwdfile username
+  – Create password file with username or truncate and rewritten if exists
+
+passwd username
+  – Change the password of an exiting user
+
+useradd username
+  – Create user
+
+useradd -m -s /bin/bash username
+  – Create user with default home folder and bash as default shell
+
+usermod -a -G groupname username
+  – Add existing user to an existing group
+
+System Inforamtion
+uname -mrs
+  – Linux kernal version and microprocessor architecture
+
+dmesg
+  – Display the boot msg
+
+ps aux OR ps -ef
+  – Show running process
+
+netstat -r
+  – Show the IP routing table including gateway address
+
+netstat -tuna
+  – List the listening port
+
+netstat -tulpn | grep :<port>
+  – Find the process which occupies a specific port
+
+grep -i –color “model name” /proc/cpuinfo
+  – Find the number of CPU cores
+
+Hard Disk & Partition
+e2fsck
+  – Checkdisk
+
+fdisk
+  – Fixdisk
+
+mke2fs
+  – Format hard disk
+
+tune2fs
+  – Edit the parameters of the partition
+ 
+
+Cron Job
+crontab -e
+  – Edit cron jobs
+
+crontab -l
+  – List all cron jobs
+
+select-editor
+  – Select text editor for crontab  
+  
+http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html
+
+Raspberry THIN CLIENT
+http://rpitc.blogspot.com.es/
+
+Bluetooth beacons
+https://www.pubnub.com/blog/2015-04-14-building-android-beacon-android-ibeacon-tutorial-overview/
+
+sudo sh -x /etc/rc.local
+
+//COMANDES LINUX
+https://lastbits.wordpress.com/2013/05/05/cheatsheet-con-400-comandos-para-gnulinux-que-deberias-saber/
+
+http://www.c-sharpcorner.com/article/multi-threading-with-windows-forms/
+
+http://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
+
+http://www.linuxadictos.com/alpine-linux-presentando-un-desconocido.html
+
+var sound = new Media("assets/www/sounds/" + fileName);
+
+http://freegeoip.net/json/
+{"ip":"195.53.121.154","country_code":"ES","country_name":"Spain","region_code":"CT","region_name":"Catalonia","city":"Parets del Vallès","zip_code":"08150","time_zone":"Europe/Madrid","latitude":41.5748,"longitude":2.2331,"metro_code":0}
+
+
+https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/ethernet-tweaks
+
+https://delog.wordpress.com/page/3/
+
+http://superuser.com/questions/944067/windows-disk-i-o-100-at-boot-for-20-minutes
+
+http://www.howtogeek.com/187721/how-to-boot-from-a-usb-drive-in-virtualbox/
+
+Activar los repositorios universe y multiverse
+http://www.juaramir.com/linux/configuracin/activarlosrepositoriosuniverseymultiverse
+
+crear particions usb 
+http://labs.isee.biz/index.php/How_to_boot_from_MicroSD_Card
+
+uboot
+run usbboot
+un cop bootat des del usb descarreguerrar demo-ti-image-minimal-sopa0000-20161220145236 al usb  (wget)
+
+treure usb
+reiniciar
+
+igep-flash --image /demo-ti-image-minimal-sopa0000-20161220145236.rootfs.tar.gz
+
+dóna error
+
+https://www.dropbox.com/s/m90a8gmjyohj56d/igep_firmware-yocto-2015.09-0-AM335x-sopa0000-20161220.tar.gz?dl=0
+https://www.dropbox.com/s/2ccz0c96es6e6id/demo-ti-image-minimal-sopa0000-20161221155826.rootfs.tar.gz?dl=0
+
+use tail to with the -f parameter to follow an open file and continuously
+display any new output at the end, which is useful for monitoring log files in real time:
+/var/log $ tail -f syslog
+
+sort -k 3 -n * | tail -n 3
+
+copy entire directories recursively
+cp -r thisdir thatdir
+cp --recursive thisdir thatdir
+
+which mono
+/usr/bin/mono
+
+cd /home/root/form_i_exec/ && python app.py  #executar des del directori on hi ha l'script sinó dóna error (python /home/root/form_i_exec/app.py no funciona !)
+
+https://github.com/HackerHouseYT/Tracking-Turret
+
+git config --global user.name "ssanchez"
+git config --global user.email "ssanchez@solerpalau.com"
+
+
+//PLC
+https://www.youtube.com/watch?v=To-snhiy-rU
+
+https://www.youtube.com/watch?v=gOHDsS8sYz8
+
+S7-1200 Comunicación s7 PUT
+https://www.youtube.com/watch?v=2fPOlWY1gBw
+
+https://www.youtube.com/watch?v=vSsDiQB5Yik
+
+Raspberry Pi Node-RED Tutorial with Modbus & MQTT
+https://www.youtube.com/watch?v=fV78MQks6BI
+//PLC
+
+bootstrap.min.css
+
+COLOR DE FONS BARRA LATERAL I SUPERIOR
+(min-width:768px){.navbar-left{float:left!important}.navbar-right{float:right!important;margin-right:-15px}.navbar-right~.navbar-right{margin-right:0}}.navbar-default{background: #0E202E; box-shadow: 4px 0px 10px 0px #000000; }
+
+
+panel-footer{padding:10px 15px;background-color:
+
+PANELLS
+panel-body{border-bottom-color:#ddd}.panel-primary{border-color:#485867}.panel-primary>.panel-heading{color:#fff;background-color:#
+
+
+Standalone WSGI Containers
+http://flask.pocoo.org/docs/0.11/deploying/wsgi-standalone/
+
+Run Intel x86 applications on ARM-based mini PCs
+https://eltechs.com/product/exagear-desktop/exagear-desktop-features-and-prices/
+
+A simple, responsive web interface to control wifi and hostapd on the Raspberry Pi
+https://github.com/tienfuc/snappy-ap
+
+https://www.segger.com/embos-mpu.html
+
+http://blog.bricogeek.com/noticias/arduino/como-hacer-un-medidor-de-consumo-electrico-con-arduino/
+
+
+How to get Python to work with Lighttpd?
+
+http://raspberrypi.stackexchange.com/questions/1346/how-to-get-python-to-work-with-lighttpd
+
+
+Really Simple HTTP Server with Python
+
+http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python
+
+Binding JavaScript code to Android code
+When developing a web application that's designed specifically for the WebView in your Android application, you can create interfaces between your JavaScript code and client-side Android code. For example, your JavaScript code can call a method in your Android code to display a Dialog, instead of using JavaScript's alert() function.
+https://developer.android.com/guide/webapps/webview.html#UsingJavaScript
+
+natural language interactions
+https://api.ai/
+https://www.npmjs.com/package/cordova-plugin-apiai
+
+https://gist.github.com
+https://gist.github.com/wpjunior/8822393#file-terminal_progressbar-py
+
+http://phantomjs.org/
+
+
+cd /home/root/form_i_exec/ && python app.py  #executar des del directori on hi ha l'script sinó dóna error (python /home/root/form_i_exec/app.py no funciona !)
+
+http://iot-vmweb.cloudapp.net/apiSiP/v1/data/telemetry/devices/DOMEOLAB?user=labripoll@solerpalau.com&pass=sapadm123&lastn=10
+
+http://www.dwin.com.cn/english/products/uartlcms.html
+
+Añadir/Quitar elementos panel
+añadir / menu
+
+sudo iwlist scan
+sudo iw dev wlan0 scan | grep SSID
+
+http://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
+
+http://weworkweplay.com/play/setting-up-your-own-linux-server-part-1-security/
+
+https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/install-software
+
+http://www.raspberry-projects.com/pi/projects/raspberry-pi-running-web-app
+
+http://pbraun.nethence.com/unix/www/thttpd.html
+
+editar fitxer raspberry des de notepad++
+Plugins -> NppFTP
+http://www.dexterindustries.com/BrickPi/program-it/hints-and-tricks/
+
+chown root /u
+Change the owner of /u to "root".
+
+Servidor i client TCP
+https://wiki.python.org/moin/TcpCommunication
+
+Audio pel Jack
+https://www.raspberrypi.org/documentation/configuration/audio-config.md
+Des de raspi-config
+
+wifis disponibles, etc
+https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+
+problema conversor hdmi/vga
+editar la microsd el fitxer config.txt, descomentar hdmi_safe=1
+
+forçar resolució amb convertidor hdmi vga
+http://thepihut.com/blogs/raspberry-pi-tutorials/34512708-troubleshooting-a-raspberry-pi-hdmi-vga-adapter
+
+SSID xarxa wifi conectada
+iwgetid provides the ssid
+iwgetid -r gives just the name
+
+XARXES WIFIS DISPONIBLES
+iwlist wlan0 scan
+
+# Restart the wireless interface
+ifdown --force wlan0
+ifup wlan0
+
+EXECUTAR SCRIPT A L'INICI
+sudo nano /etc/xdg/lxsession/LXDE/autostart
+
+AUTOSTART SCRIPT PYTHON (RASPBIAN JESSIE)
+https://www.raspberrypi.org/forums/viewtopic.php?f=31&t=43509
+@/usr/bin/python /home/pi/Desktop/blah.py
+
+https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=136177
+https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=125105
+
+EXEMPLES TKINTER
+http://apprendre-python.com/page-tkinter-interface-graphique-python-tutoriel
+
+VARIABLE SHELL SCRIPT
+In a Bash script try something like myssid=$(iwgetid -r) to put it in a variable
+
+https://www.learn2crack.com/2014/03/linux-shell-commands-from-python.html
+https://www.learn2crack.com/2014/03/raspberry-pi-post-get.html
+https://www.learn2crack.com/2014/03/android-executing-shell-commands.html
+
+http://stackoverflow.com/questions/3197509/redirecting-stdio-from-a-command-in-os-system-in-python
+os.system(cmd + "> /dev/null 2>&1")
+
+from subprocess import Popen, PIPE
+
+p = Popen(['command', 'and', 'args'], stdout=PIPE, stderr=PIPE, stdin=PIPE)
+
+output = p.stdout.read()
+p.stdin.write(input)
+
+
+http://www.python-course.eu/tkinter_labels.php
+
+https://geekytheory.com/tutorial-raspberry-pi-6-montar-usb-disco-duro/
+
+https://www.stewright.me/2013/05/install-and-run-raspbian-from-a-usb-flash-drive/
+
+
+
+If you want to completely eliminate the console that launches with the python program, you can save it with the .pyw extension.
+
+Raspberry <---> PC per Ethernet
+http://embeddedday.com/projects/raspberry-pi/basics/direct-connection-to-pc/
+sudo nano /boot/cmdline.txt i afegir al final de la línia ip=169.254.0.10  --> si faig això però, després necessita el cable eth per arrancar !
+posar eth PC, 169.254.0.20 i 255.255.255.0
+
+http://enavas.blogspot.com.es/2008/04/el-shell-de-linux-comando-grep.html
+- Obtener la dirección MAC de la interfaz de red eth0 de nuestra máquina: 
+$ ifconfig eth0 | grep -oiE '([0-9A-F]{2}:){5}[0-9A-F]{2}' 
+
+- Extraer la lista de direcciones de correo electrónico de un archivo: 
+grep -Eio '[a-z0-9._-]+@[a-z0-9.-]+[a-z]{2,4}' fichero.txt 
+
+- Obtener la dirección IP de la interfaz de red eth1 de nuestra máquina: 
+$ ifconfig eth1 | grep -oiE '([0-9]{1,3}\.){3}[0-9]{1,3}' | grep -v 255 
+
+PER OBTENIR L'IDENTIFICADOR D'UN USB CONNECTAT (NR < 2 per mostrar només la primera línia)
+sudo blkid -t TYPE=vfat -sUUID -ovalue | awk 'NR<2'
+
+CODIS WIFI
+$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+EXECUTAR SHELL SCRIPT DES DE PYTHON
+os.system("sh importar_codis_wifi.sh");
+
+REDIRECCIONAR ERROR A FITXER
+cp a.txt b.txt &> error.txt
+
+REPLACE SHELL SCRIPT
+echo 'abcde$$$$$$$$fff$$gg' | tr '$' ' '
+resultat -> abcde        fff  gg
+
+ERROR PANTALLA BLANCA DE LOGIN
+http://raspberrypi.stackexchange.com/questions/1734/please-help-startx-fails-hangs-finally-returns-error-message-xauth-timeout-i
+sudo rm /home/pi/.Xauthority     //problema relacionat amb el VNC
+
+https://www.airpair.com/python/posts/django-flask-pyramid
+https://www.airpair.com/python/posts/python-tips-and-traps
+
+https://github.com/Azure/azure-sdk-for-python/tree/master/azure-servicebus
+
+
