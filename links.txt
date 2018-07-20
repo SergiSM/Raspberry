@@ -1,0 +1,14 @@
+http://wiki.joanillo.org/index.php/Curs_4._0004990600_Internet_de_les_coses_(IoT)
+https://wiki.binefa.cat/index.php?title=Introducci%C3%B3_a_Internet_de_les_Coses_-_juny_2018
+https://wiki.binefa.cat/index.php?title=Programa_del_curset_d%27introducci%C3%B3_a_Internet_de_les_Coses_-_juny_2018
+https://plot.ly/
+https://github.com/mongoose-os-apps/blynk/tree/master/src
+https://projects.raspberrypi.org/en/projects/make-an-initial-state-dashboard-for-weather-data
+
+
+https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
+
+http://forum.unitronics.com/topic/4954-v570-tcpip-connection-not-establishing/
+http://www.side-automatizacion.com/es/system/files/suport/20.-comunicaciones_modbus_tcp_ip_0.pdf
+http://www.side-automatizacion.com/es/system/files/suport/visilogic20-20communications.pdf
+http://media.klinkmann.fi/catalogue/en/Unitronics/Unitronics_Manuals_Ethernet-Vision_en_0511.pdf
