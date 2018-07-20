@@ -1,3 +1,7 @@
+http://framework7.io/
+http://idangero.us/swiper/demos/010-default.html
+****************************************************
+
 http://wiki.joanillo.org/index.php/Curs_4._0004990600_Internet_de_les_coses_(IoT)
 https://wiki.binefa.cat/index.php?title=Introducci%C3%B3_a_Internet_de_les_Coses_-_juny_2018
 https://wiki.binefa.cat/index.php?title=Programa_del_curset_d%27introducci%C3%B3_a_Internet_de_les_Coses_-_juny_2018
@@ -638,5 +642,7 @@ https://www.airpair.com/python/posts/django-flask-pyramid
 https://www.airpair.com/python/posts/python-tips-and-traps
 
 https://github.com/Azure/azure-sdk-for-python/tree/master/azure-servicebus
+
+https://github.com/SimplyAutomationized/snap7zero
 
 
