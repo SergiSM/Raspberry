@@ -22,3 +22,12 @@ http://www.java2s.com/Code/CSharp/Design-Patterns
 http://nerdlabs.com.ar/blog/
 
 https://naylampmechatronics.com/blog/37_Comunicación-RS485-con-Arduino.html
+
+RS485-Arduino-Library
+	https://github.com/Protoneer/RS485-Arduino-Library/blob/master/RS485.cpp
+	
+MicroPython: SDCard
+	https://github.com/lvidarte/esp8266/wiki/MicroPython:-SDCard
+	
+esp8266/examples/led/src/python/main.py	 (MOLT BO)
+	https://github.com/lvidarte/esp8266/blob/master/examples/led/src/python/main.py
