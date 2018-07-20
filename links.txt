@@ -31,3 +31,9 @@ MicroPython: SDCard
 	
 esp8266/examples/led/src/python/main.py	 (MOLT BO)
 	https://github.com/lvidarte/esp8266/blob/master/examples/led/src/python/main.py
+	
+
+http://thisdavej.com/using-visual-studio-code-with-a-raspberry-pi-raspbian/
+
+https://pythonspot.com/en/web-dev/
+https://pythonspot.com/en/creating-a-webbrowser-with-python-and-pyqt-tutorial/
