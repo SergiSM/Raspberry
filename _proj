@@ -1,0 +1,6 @@
+- taula pes : dia_hora, id, pes, <temperatura>
+- taula vaca : id, tag, id_granja, data_alta
+- order per pes, data, agrupat per granja, data
+- informe diari
+- avisos : ha superat el pes
+           baixa x kg de pes respecte anterior
