@@ -52,7 +52,7 @@ function queryDatabase()
     });
     
     request = new Request(
-        "SELECT dades FROM ap_ad",
+        "SELECT dia_hora FROM ap_ad",
             function(err, rowCount, rows) 
             {
                 console.log(rowCount + ' row(s) returned');
