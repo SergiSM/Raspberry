@@ -9,6 +9,7 @@
 
 #dtoverlay=i2c-gpio,i2c_gpio_delay_us=1 #GPIO 23 as SDA and GPIO 24 as SCL (GPIO 23 and 24 is defaults)
 # dtoverlay=i2c-gpio,bus=3,i2c_gpio_delay_us=1,i2c_gpio_sda=17,i2c_gpio_scl=27
+#https://www.instructables.com/id/Raspberry-PI-Multiple-I2c-Devices/
 
 import smbus
 import time
