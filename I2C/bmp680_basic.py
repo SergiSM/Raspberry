@@ -6,7 +6,7 @@ import adafruit_bme680
 #need python3 : python3 bmp680_basic.py
 
 # Create library object using our Bus I2C port
-i2c = I2C(board.SCL, board.SDA)
+i2c = I2C(board.SCL, board.SDA)  #i2c = I2C(3, 2) specifying scl and sda pins
 bme680 = adafruit_bme680.Adafruit_BME680_I2C(i2c, debug=False)
 # change this to match the location's pressure (hPa) at sea level
 bme680.sea_level_pressure = 1013.25
