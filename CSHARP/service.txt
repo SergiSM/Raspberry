@@ -1,2 +1,9 @@
-C:\Windows\Microsoft.NET\Framework\v4.0.30319>InstallUtil.exe y:\service\Windows
-Service1\WindowsService1\bin\Debug\WindowsService1.exe
+C:\Windows\Microsoft.NET\Framework\v4.0.30319>InstallUtil.exe C:\Debug\WindowsService1.exe
+
+*** service in c:\ not in network unit
+
+https://docs.microsoft.com/es-es/dotnet/framework/windows-services/how-to-install-and-uninstall-services
+
+https://www.c-sharpcorner.com/UploadFile/naresh.avari/develop-and-install-a-windows-service-in-C-Sharp/
+
+
