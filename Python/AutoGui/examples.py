@@ -64,4 +64,7 @@ im.getpixel((100, 200))
 pyautogui.pixel(100, 200)
 pyautogui.pixelMatchesColor(100, 200, (130, 135, 144)) #, tolerance=10
 
-im = pyautogui.screenshot(region=(0,0, 300, 400))
+#im = pyautogui.screenshot(region=(0,180, 100, 100))
+#im.save(r"y:\img.png")
+
+print(pyautogui.locateOnScreen('inbox.png'))
