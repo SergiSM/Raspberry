@@ -63,3 +63,5 @@ im.getpixel((100, 200))
 
 pyautogui.pixel(100, 200)
 pyautogui.pixelMatchesColor(100, 200, (130, 135, 144)) #, tolerance=10
+
+im = pyautogui.screenshot(region=(0,0, 300, 400))
