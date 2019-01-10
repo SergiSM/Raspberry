@@ -46,27 +46,29 @@ def floydWarshall(graph):
                 dist[i][j] = min(dist[i][j] , 
 								dist[i][k]+ dist[k][j] 
 								) 
-    printSolution(dist) 
+    r = printSolution(dist)     
+    return r
 
 
 # A utility function to print the solution 
 def printSolution(dist): 
     print("Following matrix shows the shortest distances between every pair of vertices")
  
+    r = [[0 for x in range(V)] for y in range(V)]
     s = ""
     for i in range(V): 
         for j in range(V): 
-            if(dist[i][j] == INF): 				
-                print("INF")
+            if(dist[i][j] == INF): 				                
                 s += "INF " 
-            else: 				
-                print(dist[i][j]) 
+                r[i][j] = "INF"
+            else: 				                
                 s += str(dist[i][j]).zfill(3) +" "
-            if j == V-1: 
-                print("") 
+                r[i][j] = dist[i][j]
+            if j == V-1:                 
                 s += "\n"
     print(s)
-
+    print(r)
+    return r    
 
 # Driver program to test the above program 
 # Let us create the following weighted graph 
@@ -79,11 +81,18 @@ def printSolution(dist):
 	\|/		 | 
 	(1)------->(2) 
 			3		 """
-graph = [[0,5,INF,10], 
-			[INF,0,3,INF], 
+graph = [   [0, 5, INF, 10], 
+			[INF, 0, 3, INF], 
 			[INF, INF, 0, 1], 
 			[INF, INF, INF, 0] 
 		] 
 # Print the solution 
-floydWarshall(graph); 
+r = floydWarshall(graph); 
 # This code is contributed by Nikhil Kumar Singh(nickzuck_007) 
+
+def BestBetween(r, a, b):
+    print(r[a][b])
+
+BestBetween(r, 1, 3)
+
+
