@@ -1,0 +1,45 @@
+<HTML>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>    
+    <script>
+        var mes = 1;
+        function cargar_mes(inc) {
+            $("#salas").html("");
+            $("#salas_colores").html("");
+            mes = mes + inc;                        
+            $.ajax({
+                url: "/prova/calendario_json.php",
+                type: "POST",
+                data: {"fecha": mes}
+            }).done(function(data){                                                        
+                for (x in data) {
+                    $("#salas").append(x + "=" + data[x] + "<br>");                    
+                    pintar_calendario(x, data[x]);
+                }                           
+            });
+        }
+
+        function pintar_calendario(dia,reservas) {
+            var colores = ["green", "red"];
+            var s = "<TABLE width='50' height=100>";
+            s += "<TR><TD>"+dia+"</TD></TR>";
+            s += "<TR><TD bgcolor="+colores[reservas.substr(0,1)]+"></TD></TR>";
+            s += "<TR><TD bgcolor="+colores[reservas.substr(1,1)]+"></TD></TR>";
+            s += "<TR><TD bgcolor="+colores[reservas.substr(2,1)]+"></TD></TR>";
+            s += "</TABLE>";
+            $("#salas_colores").append(s);
+        }
+    </script>
+</head>
+
+<BODY>
+
+<a href="#" onclick="cargar_mes(-1);">Anterior</a>
+<a href="#" onclick="cargar_mes(1);">Siguiente</a>
+
+<div id="salas"></div>
+<div id="salas_colores"></div>
+
+</BODY>
+</HTML>
