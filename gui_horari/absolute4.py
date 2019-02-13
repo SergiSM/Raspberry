@@ -31,10 +31,10 @@ class Example(Frame):
             print(str(cota))
             if event.y >= 0 and event.y <= cota:
                 txt = "Divendres"            
-                carregar_dia(0)
+                carregar_dia(4)
             if event.y >= cota and event.y <= cota*2:
                 txt = "Dijous"
-                carregar_dia(1)
+                carregar_dia(3)
 
             self.w.itemconfig(self.titol, text=txt)            
             print('Got object click', event.x, event.y)
@@ -48,12 +48,65 @@ class Example(Frame):
             #colors = self.colors[dia]
             #text = self.text[dia]
             #hores = self.hores[dia]
-            text = ['Assig1', 'Assig2', 'Des', 'Assig3', "Assig4"]
+
+            #tota la setmana
+            s = []
+            s.append("2019-02-11T08:00:00+02:00 Prova 1#IM-2#Pr")
+            s.append("2019-02-12T08:00:00+02:00 Prova 1#IM-2#Pr")
+            s.append("2019-02-12T10:00:00+02:00 Prova 1#IM-2#Pr")
+            s.append("2019-02-13T10:20:00+02:00 Prova 1#IM-2#Pr")
+            s.append("2019-02-14T08:00:00+02:00 Prova 1#IM-2#Pr")
+            s.append("2019-02-14T15:00:00+02:00 Prova 2#IM-2#Pr")
+            s.append("2019-02-15T08:00:00+02:00 Prova 2#IM-2#Pr")
+            s.append("2019-02-15T10:20:00+02:00 Prova 1#IM-2#Pr")
+            s.append("2019-02-15T12:20:00+02:00 Prova 2#IM-2#Pr")
+            s.append("2019-02-15T15:20:00+02:00 Prova 3#IM-2#Pr")
+
+            #filtre dia actual
+            r = []
+            for ss in s:
+                data = ss[:10]                                
+                year, month, day = (int(x) for x in data.split('-'))                
+                ans = dt.datetime(year, month, day).date()                
+                if ans.weekday() == dia:
+                    r.append(ss)
+            
+            '''r.append("2019-02-13T08:00:00+02:00 Prova 1#IM-2#Pr")
+            r.append("2019-02-13T10:20:00+02:00 Prova 1#IM-2#Pr")
+            r.append("2019-02-13T12:20:00+01:00 Prova 1#IM-2#Pr")
+            r.append("2019-02-13T13:30:00+01:00 Prova 2#IM-1#Xr")
+            r.append("2019-02-13T17:00:00+01:00 Prova 3#IM-3#Tr")'''
+            print(r)
+
+            colors = ['silver', 'blue', 'green', 'yellow', 'red']
+            hores_ini = []
+            hores_fi = []
+            text = []
+            cu = []
+            pr = []
+            for rr in r:
+                hores_ini.append(rr[11:16])
+                aux = rr[20:25]                
+                hores_fi.append(int(aux[:2])*60 + int(aux[3:]) )
+                aux = rr[26:]
+                a = aux.split("#")
+                text.append(a[0])
+                cu.append(a[1])
+                pr.append(a[2])
+                
+            print(hores_ini)
+            print(hores_fi)
+            print(text)
+            print(cu)
+            print(pr)
+
+            '''text = ['Assig1', 'Assig2', 'Des', 'Assig3', "Assig4"]
             colors = ['silver', 'blue', 'green', 'yellow', 'red']
             hores_ini = ["08:00", "09:00", "10:00", "10:20", "15:30"]
-            hores_fi = ["09:00", "10:00", "10:20", "12:20", "16:30"]            
-            pixels_minut = 50/60 #1 hora = 60 min = 50 píxels, 1 min = 50/60 = 0.83 (millor que sigui exacte)
-            
+            #hores_fi = ["09:00", "10:00", "10:20", "12:20", "16:30"]            
+            hores_fi = [60, 60, 20, 120, 60]'''
+
+            pixels_minut = 50/60 #1 hora = 60 min = 50 píxels, 1 min = 50/60 = 0.83 (millor que sigui exacte)            
             left = 50 #començant a les 8 del matí
                
             for i in range(len(hores_ini)):
@@ -65,10 +118,12 @@ class Example(Frame):
                 inici_assig = diff_inici*pixels_minut
                 print(inici_assig)
 
-                start_dt = dt.datetime.strptime(hores_ini[i], '%H:%M')
+                '''start_dt = dt.datetime.strptime(hores_ini[i], '%H:%M')
                 end_dt = dt.datetime.strptime(hores_fi[i], '%H:%M')
                 diff_ample = (end_dt - start_dt).seconds/60   
-                print(diff_ample)
+                print(diff_ample)'''
+                diff_ample = hores_fi[i]
+
 
                 ample_assig = diff_ample*pixels_minut
                 print(ample_assig)
