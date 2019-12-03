@@ -32,4 +32,83 @@ https://geeks.ms/rcorral/2018/01/31/como-liberar-espacion-de-disco-en-mysql/
 Pi 4, Buster and PiServer
 	https://www.jonwitts.co.uk/archives/1222
 	
+https://github.com/Nakiami/MultithreadedSimpleHTTPServer
+https://rico-schmidt.name/pymotw-3/http.server/
+https://codeday.me/es/qa/20190211/171703.html
+http://b.leppoc.net/2010/02/12/simple-webserver-in-python/
+
+python3 -m http.server
+
+https://pythonpedia.com/en/tutorial/4247/python-http-server
+
+FAVICON.ICO !!!! per a que no doni problemes al reloaddddd !!!!!!
+
+https://www.element14.com/community/docs/DOC-92862/l/smartedge-industrial-iot-gateway-solution-connects-to-innovate#indapps
+https://github.com/Avnet
+https://github.com/Avnet/smartedge-iiot-gateway-custom
+
+https://programacion.net/articulo/los_pickles_de_python_1860
+
+https://www.rs-online.com/designspark/building-a-pi-powered-wireless-label-printer
+https://github.com/codeforsanjose/BadgeHub#adding_printer
+
+
+https://es.rs-online.com/web/p/impresora-de-etiquetas/8406305/
+https://es.rs-online.com/web/p/products/8406302/?cm_mmc=en-ds-_-web-_-ds:inspiration:technology-hub:raspberry-pi:building-a-pi-powered-wireless-label-printer_bp-_-8406302
+https://es.rs-online.com/web/p/cintas-laminadas/4851256/
+
+https://github.com/pklaus/brother_ql
+
+
+Create images with Python PIL and Pillow and write text on them
+	https://code-maven.com/create-images-with-python-pil-pillow
+	
+https://github.com/ways/rpi-readonly	
+
+
+
+https://www.rs-online.com/designspark/building-a-digital-mobile-radio-repeater-part-4-raspberry-pi-configuration
+
+
+https://blog.bricogeek.com/noticias/arduino/programacion-visual-por-bloques-logicos-para-arduino-con-xod/
+
+MAC spoofing.
+Linux
+ifconfig nombredelainterfaz down
+ifconfig nombredelainterfaz hw ether 91:75:1a:ec:9a:c7
+ifconfig nombredelainterfaz up
+/etc/init.d/network-manager restart
+
+Microsoft Windows
+En Windows, no puede cambiarse la MAC por comandos, pero puede cambiarse en la configuración de la tarjeta de red en el Panel de control, o alterando el valor "NetworkAddress" en la clave HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}.
+
+50:f1:4a:fd:68:06
+
+https://iotbytes.wordpress.com/
+https://iotbytes.wordpress.com/managing-files-with-nodemcu/
+
+https://www.devglan.com/online-tools/aes-encryption-decryption
+https://stackoverflow.com/questions/51418760/decrypt-string-with-openssl-issue-output
+https://encode-decode.com/aes-256-cbc-encrypt-online/
+https://stackoverflow.com/questions/9889492/how-to-do-encryption-using-aes-in-openssl
+https://stackoverflow.com/questions/33461152/aes-encryption-with-plain-text-key-using-bash-openssl
+https://gist.github.com/loufq/ad61d070cabeda6b26c3
+
+https://sp-webapi.azurewebsites.net/swagger/index.html
+
+https://naylampmechatronics.com/blog/37_Comunicaci%C3%B3n-RS485-con-Arduino.html
+
+
+https://www.zerynth.com/zerynth-studio/
+https://docs.zerynth.com/latest/official/board.zerynth.esp32_devkitc/docs/index.html
+https://mongoose-os.com/mos.html
+https://mongoose-os.com/docs/mongoose-os/quickstart/setup.md
+https://mongoose-os.com/powered-by-mongoose-os.html
+https://mdash.net/home/tour.html
+
+https://www.espressif.com/en/support/download/sdk?keys=&field_type_tid%5B%5D=13
+
+https://github.com/jnogues
+
+	
 
