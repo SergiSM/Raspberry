@@ -110,5 +110,110 @@ https://www.espressif.com/en/support/download/sdk?keys=&field_type_tid%5B%5D=13
 
 https://github.com/jnogues
 
+https://circuitdigest.com/microcontroller-projects/getting-started-with-esp32-with-arduino-ide
+
+https://lastminuteengineers.com/esp32-ota-updates-arduino-ide/  bo !!!!
+https://ionicframework.com/docs/v1/guide/
+https://explainshell.com/explain?cmd=ssh+-f+-D+7070+user%40remote-host 	
+
+https://www.geeksforgeeks.org/
+sudo apt-get install minicom
+minicom -b 9600 -o -D /dev/ttyAMA0
+
+
+
+http://www.hobbytronics.co.uk/raspberry-pi-serial-port
+
+Disable Bootup Info
+
+When the Raspberry Pi boots up, all the bootup information is sent to the serial port. Disabling this bootup information is optional and you may want to leave this enabled as it is sometimes useful to see what is happening at bootup. If you have a device connected (i.e. Arduino) at bootup, it will receive this information over the serial port, so it is up to you to decide whether this is a problem or not.
+
+You can disable it by editing the file /boot/cmdline.txt
+
+The contents of the file look like this
+
+dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait
+
+Remove all references to ttyAMA0 (which is the name of the serial port). The file will now look like this
+
+dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait
+http://www.circuitstoday.com/arduino-nano-tutorial-pinout-schematics	
+
+https://www.amazon.es/QLOUNI-Converter-3-0-40V-alimentaci%C3%B3n-reductor/dp/B077VW4BTY/ref=pd_sbs_107_1/258-1053546-2986500?_encoding=UTF8&pd_rd_i=B077VW4BTY&pd_rd_r=44b0d669-08e7-4a6d-98d7-e7a7684a16aa&pd_rd_w=AvGxD&pd_rd_wg=IyLqv&pf_rd_p=f9384d3f-fa3d-4e25-8bc3-b0c7853cd8a6&pf_rd_r=K175QMBK3NTR5VDXJQSH&psc=1&refRID=K175QMBK3NTR5VDXJQSH#customerReviews
+
+https://www.amazon.es/Droking-Regulador-Converter-alimentaci%C3%B3n-Transformador/dp/B07GFM5G41/ref=sr_1_4_sspa?keywords=transformador+5v+a+12v&qid=1563867560&s=gateway&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFKSjNZQ1dPTU40R0UmZW5jcnlwdGVkSWQ9QTAxNjI3MDYxMFFIUDdFRjE1WldKJmVuY3J5cHRlZEFkSWQ9QTAxMzgxMTgzNVo0MVhZWDJFRk5BJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+
+https://channel9.msdn.com/Blogs/dotnet/Get-started-VSCode-Csharp-NET-Core-Windows
+
+dotnet new console -o myapp
+cd myapp
+code .
+terminal -> powershell -> dotnet run
+
+
+dotnet new mvc -au None -o aspnetapp
+cd aspnetapp
+code .
+dotnet run
+http://localhost:5000/
+https://localhost:5001/
+
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=199599
+	https://github.com/Drewsif/PiShrink
+	https://github.com/billw2/rpi-clone
+	
+	
+https://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
+https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link/
+
+
+https://chrisalbon.com/#linux
+
+http://www.martyncurrey.com/esp8266-and-the-arduino-ide-part-9-websockets/#more-8396
+http://www.martyncurrey.com/esp8266-and-the-arduino-ide-part-6-javascript-and-ajax/#more-7701
+
+How to setup mount / auto-mount USB Hard Drive on Raspberry Pi
+	https://gist.github.com/etes/aa76a6e9c80579872e5f
+	
+How To Mount A USB Flash Disk On The Raspberry Pi	
+	https://www.raspberrypi-spy.co.uk/2014/05/how-to-mount-a-usb-flash-disk-on-the-raspberry-pi/
+	
+Extending the life of your Raspberry PI SD Card
+	https://domoticproject.com/extending-life-raspberry-pi-sd-card/
+	
+Attach USB storage to your Raspberry Pi
+	https://blog.alexellis.io/attach-usb-storage/
+	
+Read-only system with hwclock, but I need to change the datetime	
+	https://raspberrypi.stackexchange.com/questions/84956/read-only-system-with-hwclock-but-i-need-to-change-the-datetime	
+	
+	sudo mount -o remount, rw '/media/usb/'
+	echo raspberry | sudo mount -o uid=pi, gid=pi /dev/sda1 /media/usb/
 	
 
+sudo mount /dev/sda1 /media/usb
+sudo mount -o remount,rw /media/usb
+sudo touch c.txt
+sudo mount -o remount,ro /media/usb
+
+https://www.thingforward.io/techblog/2018-05-22-connecting-nodemcu-to-microsoft-azure-iot-hub-part-1.html
+
+
+https://github.com/NicoHood/Simple-Calendar
+	
+	
+Protect python code
+https://www.quora.com/How-can-I-protect-my-Python-code-but-still-make-it-available-to-run
+
+https://gist.github.com/naholyr/4275302
+
+
+https://es.wikipedia.org/wiki/Netcat
+
+https://git.busybox.net/busybox/
+
+http://sp-webapi.azurewebsites.net/api/v1/Devices/9999999001/cloudtodevice/HR30/1
+
+https://www.hackster.io/marcomerli/midi-riot-954638
+https://www.hackster.io/Amozaner/smart-temperature-to-prevent-heat-illness-6a4b60
