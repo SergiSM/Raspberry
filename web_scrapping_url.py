@@ -2,6 +2,7 @@
 # pylint: disable=C0103
 from bs4 import BeautifulSoup
 import requests
+import urllib.request
 
 def Bricogeek(url):    
     req = requests.get(url)
@@ -69,7 +70,30 @@ def Adafruit(url):
         print("Status Code %d" %statusCode)
 
 
-Bricogeek("http://blog.bricogeek.com")
+def Save_img(url):
+    req = requests.get(url)
+    statusCode = req.status_code
+
+    if statusCode == 200:
+
+        html = BeautifulSoup(req.text, "html.parser")        
+        score = html.find_all('img', {'itemprop' : 'url'})
+        i = 0
+        for s in score:                
+            try:                   
+                if (s.attrs['alt'] != "logo"): 
+                    print(s.attrs['src'])                          
+                    imatge = s.attrs['src']                        
+                    urllib.request.urlretrieve(imatge, "c:\\Temp\\"+str(i)+imatge[-4:])        
+                    i = i + 1
+            except:
+                pass
+    else:
+        print("Status Code %d" %statusCode)
+
+'''Bricogeek("http://blog.bricogeek.com")
 Soloelectronicos("http://soloelectronicos.com/")
 Raspberry("https://www.raspberrypi.org/blog/")
-Adafruit("https://blog.adafruit.com")
+Adafruit("https://blog.adafruit.com")'''
+
+Save_img("http://blog.bricogeek.com")
