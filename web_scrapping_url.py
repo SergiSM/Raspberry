@@ -50,6 +50,26 @@ def Raspberry(url):
     else:
         print("Status Code %d" %statusCode)
 
+def Adafruit(url):
+    req = requests.get(url)
+    statusCode = req.status_code
+
+    if statusCode == 200:
+
+        html = BeautifulSoup(req.text, "html.parser")
+
+        tags = ['links new', 'links featured']
+        for TAG in tags:
+            for score in html.find_all('ul', {'class': TAG}):
+                for s in score.find_all('li'):
+                    score = s.find('a', {'class': 'name'})
+                    print(score.getText().strip()+"  ---  "+score.attrs['href'])
+
+    else:
+        print("Status Code %d" %statusCode)
+
+
 Bricogeek("http://blog.bricogeek.com")
 Soloelectronicos("http://soloelectronicos.com/")
 Raspberry("https://www.raspberrypi.org/blog/")
+Adafruit("https://blog.adafruit.com")
