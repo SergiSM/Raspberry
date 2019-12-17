@@ -3,6 +3,7 @@
 from bs4 import BeautifulSoup
 import requests
 import urllib.request
+import subprocess
 
 def Bricogeek(url):    
     req = requests.get(url)
@@ -84,7 +85,8 @@ def Save_img(url):
                 if (s.attrs['alt'] != "logo"): 
                     print(s.attrs['src'])                          
                     imatge = s.attrs['src']                        
-                    urllib.request.urlretrieve(imatge, "c:\\Temp\\"+str(i)+imatge[-4:])        
+                    #urllib.request.urlretrieve(imatge, "c:\\Temp\\"+str(i)+imatge[-4:])        
+                    urllib.request.urlretrieve(imatge, str(i)+imatge[-4:])        
                     i = i + 1
             except:
                 pass
@@ -96,4 +98,10 @@ Soloelectronicos("http://soloelectronicos.com/")
 Raspberry("https://www.raspberrypi.org/blog/")
 Adafruit("https://blog.adafruit.com")'''
 
-Save_img("http://blog.bricogeek.com")
+#Save_img("http://blog.bricogeek.com")
+
+#subprocess.run(['git add .'])
+'''subprocess.run(['git add 0.jpg'])
+subprocess.run(['git commit -m "prova"'])
+subprocess.run(['git push origin master'])'''
+#subprocess.run(['notepad.exe', 'C:\\Temp\\new.txt'])
