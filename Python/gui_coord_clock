@@ -1,0 +1,17 @@
+import time
+import tkinter
+
+root = tkinter.Tk()
+root.geometry('480x480')
+
+def timer():
+    now = time.strftime("%H:%M:%S")
+    l.configure(text=now)
+    root.after(1000, timer)
+
+l = tkinter.Label(root, text="-", font=("Times", 30))
+l.place(x=100, y=100)   
+
+timer()
+
+root.mainloop()
