@@ -1,0 +1,15 @@
+# Importing Image and ImageFont, ImageDraw module from PIL package  
+from PIL import Image, ImageFont, ImageDraw 
+      
+# creating a image object 
+image = Image.open(r'C:\Users\xxx\Downloads\image.jpg')  
+  
+draw = ImageDraw.Draw(image) 
+  
+font = ImageFont.truetype(r'C:\Users\xxx\Downloads\Karnivore-Lite\KARNIBLA.ttf', 70) 
+  
+text = 'HELLOW \nWORLD'
+  
+draw.text((10, 20), text, font = font) 
+  
+image.show() 
