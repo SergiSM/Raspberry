@@ -1,3 +1,12 @@
+https://dev.to/heymarkkop/how-to-set-up-a-custom-domain-on-github-pages-hc7
+
+https://developer.chrome.com/apps/manifest/kiosk_enabled
+
+https://dev.to/pluralsight/using-a-raspberry-pi-as-your-development-server-28c
+	git remote add origin git@[Your IP Address]:react-hello-world.git
+	git push --set-upstream origin master
+	
+https://dev.to/pluralsight/analyzing-the-attacks-on-my-website-30jf
 ngrok_hostname.sh
 	https://gist.github.com/rjz/af40158c529d7c407420fc0de490758b
 	https://gist.github.com/Artistan/e1da8a060900d5db3c3eb001e076b4e9
