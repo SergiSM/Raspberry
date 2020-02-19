@@ -1,3 +1,11 @@
+https://www.raspberrypi.org/forums/viewtopic.php?t=249282
+	Re: Raspberry Pi 4 + 7" Official Touch screen = Xorg High CPU Load
+	I found in Raspi-Config that you can disable the OpenGL driver and use the legacy one. Now all is working again. Will this driver stay part of Raspbian as the OpenGL one is buggy it seems.
+	
+
+Right-click on the taskbar and select "Panel Settings". Click on the "Advanced" tab, and check "Minimize panel when not in use".
+
+pcmanfm --set-wallpaper /path/to/your/image
 https://dev.to/coderasha/build-virtual-assistant-with-python-automate-tasks-46a6
 https://dev.to/mustafaanaskh99/convert-any-pdf-file-into-an-audio-book-with-python-1gk4
 https://dev.to/azure/raspberry-pi-debugging-a-python-internet-of-things-application-2e2c
