@@ -1,3 +1,4 @@
+https://codehandbook.org/how-to-read-email-from-gmail-using-python/
 https://www.raspberrypi.org/forums/viewtopic.php?t=249282
 	Re: Raspberry Pi 4 + 7" Official Touch screen = Xorg High CPU Load
 	I found in Raspi-Config that you can disable the OpenGL driver and use the legacy one. Now all is working again. Will this driver stay part of Raspbian as the OpenGL one is buggy it seems.
