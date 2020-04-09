@@ -1,1 +1,111 @@
-[{"id":812,"productId":"P0008_R000","sid":"DI0","description":"Estado equipo","pos":1,"nb":1,"mbfc":2,"addr":0,"role":"Unknown"},{"id":813,"productId":"P0008_R000","sid":"DI1","description":"Estado buzzer","pos":2,"nb":1,"mbfc":2,"addr":1,"role":"Unknown"},{"id":814,"productId":"P0008_R000","sid":"DI2","description":"Estado sonda temperatura ETA","pos":3,"nb":1,"mbfc":2,"addr":2,"role":"Unknown"},{"id":815,"productId":"P0008_R000","sid":"DI3","description":"Estado sonda temperatura EHA","pos":4,"nb":1,"mbfc":2,"addr":3,"role":"Unknown"},{"id":816,"productId":"P0008_R000","sid":"DI4","description":"Estado sonda temperatura ODA","pos":5,"nb":1,"mbfc":2,"addr":4,"role":"Unknown"},{"id":817,"productId":"P0008_R000","sid":"DI5","description":"Estado sonda temperatura SUP","pos":6,"nb":1,"mbfc":2,"addr":5,"role":"Unknown"},{"id":818,"productId":"P0008_R000","sid":"DI6","description":"Estado contacto BMS","pos":7,"nb":1,"mbfc":2,"addr":6,"role":"Unknown"},{"id":819,"productId":"P0008_R000","sid":"DI7","description":"Estado alarma fuego","pos":8,"nb":1,"mbfc":2,"addr":7,"role":"Unknown"},{"id":820,"productId":"P0008_R000","sid":"DI8","description":"Estado motor extracción","pos":9,"nb":1,"mbfc":2,"addr":8,"role":"Unknown"},{"id":821,"productId":"P0008_R000","sid":"DI9","description":"Estado motor impulsión","pos":10,"nb":1,"mbfc":2,"addr":9,"role":"Unknown"}]
+[{
+	"id": 812,
+	"productId": "P0008_R000",
+	"sid": "DI0",
+	"description": "Estado equipo",
+	"pos": 1,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 0,
+	"role": "Unknown"
+}, {
+	"id": 813,
+	"productId": "P0008_R000",
+	"sid": "DI1",
+	"description": "Estado buzzer",
+	"pos": 2,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 1,
+	"role": "Unknown"
+}, {
+	"id": 814,
+	"productId": "P0008_R000",
+	"sid": "DI2",
+	"description": "Estado sonda temperatura ETA",
+	"pos": 3,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 2,
+	"role": "Unknown"
+}, {
+	"id": 815,
+	"productId": "P0008_R000",
+	"sid": "DI3",
+	"description": "Estado sonda temperatura EHA",
+	"pos": 4,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 3,
+	"role": "Unknown"
+}, {
+	"id": 816,
+	"productId": "P0008_R000",
+	"sid": "DI4",
+	"description": "Estado sonda temperatura ODA",
+	"pos": 5,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 4,
+	"role": "Unknown"
+}, {
+	"id": 817,
+	"productId": "P0008_R000",
+	"sid": "DI5",
+	"description": "Estado sonda temperatura SUP",
+	"pos": 6,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 5,
+	"role": "Unknown"
+}, {
+	"id": 818,
+	"productId": "P0008_R000",
+	"sid": "DI6",
+	"description": "Estado contacto BMS",
+	"pos": 7,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 6,
+	"role": "Unknown"
+}, {
+	"id": 819,
+	"productId": "P0008_R000",
+	"sid": "DI7",
+	"description": "Estado alarma fuego",
+	"pos": 8,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 7,
+	"role": "Unknown"
+}, {
+	"id": 820,
+	"productId": "P0008_R000",
+	"sid": "DI8",
+	"description": "Estado motor extracción",
+	"pos": 9,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 8,
+	"role": "Unknown"
+}, {
+	"id": 821,
+	"productId": "P0008_R000",
+	"sid": "DI9",
+	"description": "Estado motor impulsión",
+	"pos": 10,
+	"nb": 1,
+	"mbfc": 2,
+	"addr": 9,
+	"role": "Unknown"
+}, {
+	"id": 821,
+	"productId": "P0008_R000",
+	"sid": "HR3",
+	"description": "x",
+	"pos": 10,
+	"nb": 1,
+	"mbfc": 3,
+	"addr": 2,
+	"role": "Unknown"
+}]
