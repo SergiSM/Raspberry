@@ -5,7 +5,7 @@
 	"description": "Estado equipo",
 	"pos": 1,
 	"nb": 1,
-	"mbfc": 1,
+	"mbfc": 4,
 	"addr": 0,
 	"role": "Unknown"
 }, {
