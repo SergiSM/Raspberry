@@ -1,3 +1,32 @@
+https://github.com/espressif/esptool/issues/136
+https://www.esp32.com/viewtopic.php?t=3711
+https://randomnerdtutorials.com/solved-failed-to-connect-to-esp32-timed-out-waiting-for-packet-header/
+https://github.com/espressif/esptool/issues/226
+https://moayom.blogspot.com/2019/02/2-flash-ai-thinker-esp32s-cam-example.html
+https://www.youtube.com/watch?v=lH7hVTUL7W8
+https://www.14core.com/wiring-and-flashing-programming-esp-32-esp32s-with-usb-ttl-uart/amp/
+https://www.esp32.com/viewtopic.php?t=14713
+https://www.youtube.com/watch?v=R-FDJsuH_eE
+
+3 Simple ways of programming an ESP-12 Module
+	https://www.youtube.com/watch?v=37KlzYhJaQs
+	
+Running an ESP8266 ESP-12E module in minimum configuration
+	https://www.youtube.com/watch?v=4tIopaejG-s
+	
+TUTORIAL: How to wire up and flash the ESP8266 12E properly! It works!
+	https://www.youtube.com/watch?v=YCeWpg_SqI8
+	
+	
+https://esp32.com/viewtopic.php?t=658
+http://esprtk.wap.sh/tt/flash_bin_file_to_esp32.html
+https://electronics.stackexchange.com/questions/448187/esp32-with-ftdi-programmer
+https://www.infootec.net/nodemcu-esp32/
+https://github.com/letscontrolit/ESPEasy
+https://github.com/nodemcu/nodemcu-flasher
+https://www.letscontrolit.com/wiki/index.php/Basics:_Connecting_and_flashing_the_ESP8266
+https://github.com/RomeHein/ESPecial
+https://github.com/marcelkottmann/esp32-javascript
 https://stackoverflow.com/questions/29655051/proper-way-to-free-memory-of-a-returned-variable
 
 Return array from function in C
